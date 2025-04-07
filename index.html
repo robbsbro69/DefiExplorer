@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DApp Directory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">DApp Directory</div>
+            <div class="chain-selector">
+                <select id="chainSelector">
+                    <option value="ethereum">Ethereum</option>
+                    <option value="bsc">Binance Smart Chain</option>
+                    <option value="polygon">Polygon</option>
+                    <option value="solana">Solana</option>
+                    <option value="avalanche">Avalanche</option>
+                    <option value="manta">Manta</option>
+                    <option value="ink">Inkchain</option>
+                    <option value="swell">Swellchain</option>
+                    <option value="cyber">Cyber</option>
+                </select>
+            </div>
+        </header>
+        
+        <main>
+            <div class="section">
+                <div class="section-title">Decentralized Exchanges (DEX)</div>
+                <div class="dapp-grid" id="dexGrid"></div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Lending Protocols</div>
+                <div class="dapp-grid" id="lendingGrid"></div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">NFT Marketplaces</div>
+                <div class="dapp-grid" id="nftGrid"></div>
+            </div>
+        </main>
+    </div>
+    
+    <div id="statusMessage" class="status-message">Redirecting to DApp...</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
