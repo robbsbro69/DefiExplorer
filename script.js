@@ -93,8 +93,8 @@ const dapps = {
             { name: "Impossible Finance", logo: "I", description: "Community-driven DEX", url: "https://impossible.finance/" },
             { name: "Firefly Dex", logo: "I", description: "Community-driven DEX", url: "https://fireflydex.io/#/swap" },
             { name: "Magpie", logo: "I", description: "Bridge and Dex", url: "https://app.magpiefi.xyz/swap" },
-            { name: "Symbiosis", logo: "Symb", description: "Bridge", url: "https://app.symbiosis.finance/liquidity-v2/pools" },
-            { name: "MonRoe", logo: "I", description: "Lending", url: "https://app.monroeprotocol.com/vaults" }
+            { name: "Symbiosis", logo: "Symb", description: "Bridge", url: "https://app.symbiosis.finance/liquidity-v2/pools" }
+            
         ],
         lending: [
             { name: "Shoebill", logo: "Sb", description: "Liquidity market", url: "https://manta-manta.shoebill.finance/#/" },
@@ -102,7 +102,8 @@ const dapps = {
             { name: "Zerolend", logo: "ZL", description: "Liquidity protocol", url: "https://app.zerolend.xyz/markets/?marketName=proto_manta_v3" },
             { name: "Omni", logo: "Oi", description: "Liquidity protocol", url: "https://omni.ls/" },
             { name: "Accumulated Finance", logo: "AF", description: "Liquidity protocol", url: "https://accumulated.finance/stake/manta" },
-            { name: "Layerbank", logo: "Lb", description: "Liquidity protocol", url: "https://app.layerbank.finance/manta-pacific/bank" }
+            { name: "Layerbank", logo: "Lb", description: "Liquidity protocol", url: "https://app.layerbank.finance/manta-pacific/bank" },
+            { name: "MonRoe", logo: "I", description: "Lending", url: "https://app.monroeprotocol.com/vaults" }
         ],
         nft: [
             { name: "Element", logo: "E", description: "Multi-chain NFT platform", url: "https://element.market/manta-pacific" },
