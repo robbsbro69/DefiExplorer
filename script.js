@@ -136,14 +136,64 @@ const dapps = {
     },
     cyber: {
         dex: [
-            { name: "Owlto", logo: "V", description: "Leading Inkchain DEX", url: "https://owlto.finance/swap" },
-            { name: "Izumi", logo: "R", description: "Community-driven DEX", url: "https://izumi.finance/trade/swap" }
+            { name: "Owlto", logo: "O", description: "Leading Inkchain DEX", url: "https://owlto.finance/swap" },
+            { name: "Izumi", logo: "I", description: "Community-driven DEX", url: "https://izumi.finance/trade/swap" }
         ],
         lending: [
-            { name: "Euler", logo: "I", description: "Algorithmic liquidity market", url: "https://app.euler.finance/?chainId=1" }
+            { name: "Euler", logo: "E", description: "Algorithmic liquidity market", url: "https://app.euler.finance/?chainId=1" }
         ],
         nft: [
             { name: "Element", logo: "E", description: "Multi-chain NFT platform", url: "https://element.market/cyber" },
+        ]
+    },
+    monad: {
+        dex: [
+            { name: "Owlto", logo: "O", description: "Deploy Contract", url: "https://owlto.finance/deploy/?chain=MonadTestnet" },
+            { name: "Izumi", logo: "I", description: "Community-driven DEX", url: "https://alpha.izumi.finance/trade/swap" },
+            { name: "Nitro Finance", logo: "NF", description: "Leading Inkchain DEX", url: "https://testapp.nitrofinance.xyz/trade" },
+            { name: "Bebop", logo: "B", description: "Leading Inkchain DEX", url: "https://bebop.xyz/trade?network=monad" },
+            { name: "Hashflow", logo: "HF", description: "Leading Inkchain DEX", url: "https://app.hashflow.com/?b=10143-USDC&q=10143-USDT" },
+            { name: "Castora", logo: "C", description: "Dex", url: "https://castora.xyz/pools" },
+            { name: "Clober", logo: "Crr", description: "Dex", url: "https://alpha.clober.io/trade?chain=10143" },
+            { name: "Crystal", logo: "C", description: "Dex", url: "https://app.crystal.exchange/swap" },
+            { name: "Fukunad", logo: "F", description: "Raffle", url: "https://testnet.fukunad.xyz/raffle" },
+            { name: "Nextmate", logo: "N", description: "Voting", url: "https://nextmate.ai/predictionMarket?chainType=monad_testnet" },
+            { name: "PancakeSwap", logo: "P", description: "Dex", url: "https://pancakeswap.finance/swap" },
+            { name: "PlayGround", logo: "P", description: "Dex", url: "https://playground.easy-node.xyz/" },
+            { name: "Ambient Finance", logo: "AF", description: "Dex", url: "https://monad.ambient.finance" },
+            { name: "Monorail", logo: "M", description: "Dex", url: "https://testnet-preview.monorail.xyz/" },
+            { name: "Azar", logo: "A", description: "Dex", url: "https://app-monad-testnet.azaar.com/swap" },
+            { name: "Curvance", logo: "C", description: "Dex", url: "https://monad.curvance.com/" },
+            { name: "Covenant Finance", logo: "CF", description: "Dex", url: "https://fluidtest.covenant.finance/market/4?action=buy" },
+            { name: "Narwhal Finance", logo: "NF", description: "Dex", url: "https://testnet.narwhal.finance/?token=USDT" },
+            { name: "Zaros", logo: "Z", description: "Dex", url: "https://testnet.app.zaros.fi/" },
+            { name: "Pandara", logo: "P", description: "Dex", url: "https://pandaria.lfj.gg/monad-testnet/swap" },
+            { name: "Nabla Finance", logo: "NF", description: "Dex", url: "https://app.nabla.fi/swap" },
+            { name: "Bean Exchange", logo: "BE", description: "Dex", url: "https://swap.bean.exchange/swap" },
+            { name: "AiCraft Fun", logo: "AF", description: "Voting", url: "https://aicraft.fun/projects/fizen?ref=PLTL0FVZLK?ref=WC1EG2KWSG" },
+            { name: "Dirol Network", logo: "DN", description: "Dex", url: "https://dex.dirol.network/swap" },
+            { name: "Octo Exchange", logo: "OE", description: "Dex", url: "https://octo.exchange/swap" },
+            { name: "Madness Finance", logo: "MF", description: "Dex", url: "https://madness.finance/swap" },
+            { name: "Rubic Exchange", logo: "RE", description: "Dex", url: "https://testnet.rubic.exchange/" },
+            { name: "Bubble Finance", logo: "BF", description: "Dex", url: "https://app.bubblefi.xyz/" },
+            { name: "Kuru Trade", logo: "KT", description: "Dex", url: "https://www.kuru.io/trade/" },
+            { name: "Dusted", logo: "D", description: "Gaming", url: "https://www.dusted.app/rewards" },
+            { name: "Atlantis Dex", logo: "AD", description: "Dex", url: "https://app.atlantisdex.xyz/swap/v4/" },
+            { name: "ApeBond", logo: "AB", description: "Dex", url: "https://www.ape.bond/bonds" }
+        ],
+        lending: [
+            { name: "Kinza", logo: "K", description: "Liquidity market", url: "https://monad-test.kinza.finance/#/details/MON" },
+            { name: "Apr", logo: "A", description: "Staking", url: "https://stake.apr.io/" },
+            { name: "Kintsu", logo: "Ki", description: "Staking", url: "https://kintsu.xyz/staking" },
+            { name: "Shmonad", logo: "Sm", description: "Staking", url: "https://shmonad.xyz/" },
+            { name: "Nostra Finance", logo: "NF", description: "Staking", url: "https://shmonad.xyz/" },
+            { name: "Timeswap", logo: "TS", description: "Staking", url: "https://app.timeswap.io/markets" },
+            { name: "Magma Staking", logo: "MS", description: "Staking", url: "https://www.magmastaking.xyz/" }
+        ],
+        nft: [
+            { name: "Element", logo: "E", description: "Multi-chain NFT platform", url: "https://element.market/cyber" },
+            { name: "Nezro", logo: "N", description: "Mint Nft", url: "https://nerzo.xyz/senera" },
+            { name: "Magic Eden", logo: "ME", description: "Mint Nft", url: "https://magiceden.io/mint-terminal/monad-testnet" }
         ]
     }
 };
