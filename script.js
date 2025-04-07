@@ -81,10 +81,27 @@ const dapps = {
     manta: {
         dex: [
             { name: "GullSwap", logo: "G", description: "Leading Manta DEX", url: "https://app.gullnetwork.com/swap" },
-            { name: "Izumi", logo: "I", description: "Community-driven DEX", url: "https://izumi.finance/trade/swap" }
+            { name: "Izumi", logo: "I", description: "Community-driven DEX", url: "https://izumi.finance/trade/swap" },
+            { name: "Oku Trade", logo: "Oku", description: "Community-driven DEX", url: "https://oku.trade/?inputChain=manta" },
+            { name: "Rubic", logo: "I", description: "Bridge", url: "https://app.rubic.exchange/" },
+            { name: "Pixelswap", logo: "I", description: "Community-driven DEX", url: "https://app.pixelswap.xyz/#/swap" },
+            { name: "DoDoEx", logo: "I", description: "Community-driven DEX", url: "https://app.dodoex.io/" },
+            { name: "DapDap", logo: "I", description: "Community-driven DEX", url: "https://app.dapdap.net/super-swap" },
+            { name: "Layerswap", logo: "I", description: "Bridge", url: "https://layerswap.io/" },
+            { name: "Aperture", logo: "I", description: "Community-driven DEX", url: "https://app.aperture.finance/" },
+            { name: "Cetoswap", logo: "I", description: "Community-driven DEX", url: "https://cetoswap.com/#/" },
+            { name: "Impossible Finance", logo: "I", description: "Community-driven DEX", url: "https://impossible.finance/" },
+            { name: "Firefly Dex", logo: "I", description: "Community-driven DEX", url: "https://fireflydex.io/#/swap" },
+            { name: "Magpie", logo: "I", description: "Bridge and Dex", url: "https://app.magpiefi.xyz/swap" },
+            { name: "Symbiosis", logo: "Symb", description: "Bridge", url: "https://app.symbiosis.finance/liquidity-v2/pools" },
+            { name: "MonRoe", logo: "I", description: "Lending", url: "https://app.monroeprotocol.com/vaults" }
         ],
         lending: [
-            { name: "Shoebill", logo: "Sb", description: "Algorithmic liquidity market", url: "https://manta-manta.shoebill.finance/#/" },
+            { name: "Shoebill", logo: "Sb", description: "Liquidity market", url: "https://manta-manta.shoebill.finance/#/" },
+            { name: "Layerbank", logo: "Lb", description: "Liquidity protocol", url: "https://app.layerbank.finance/manta-pacific/bank" },
+            { name: "Zerolend", logo: "ZL", description: "Liquidity protocol", url: "https://app.zerolend.xyz/markets/?marketName=proto_manta_v3" },
+            { name: "Omni", logo: "Oi", description: "Liquidity protocol", url: "https://omni.ls/" },
+            { name: "Accumulated Finance", logo: "AF", description: "Liquidity protocol", url: "https://accumulated.finance/stake/manta" },
             { name: "Layerbank", logo: "Lb", description: "Liquidity protocol", url: "https://app.layerbank.finance/manta-pacific/bank" }
         ],
         nft: [
