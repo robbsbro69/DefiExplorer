@@ -217,20 +217,25 @@ const dapps = {
     unichain: {
         dex: [
             { name: "Uniswap", logo: "Uni", description: "Leading Worldchain DEX", url: "https://app.uniswap.org/" },
-            { name: "Jumper", logo: "Jump", description: "Cross-Chain Swap and Bridge", url: "https://jumper.exchange/"}
+            { name: "Jumper", logo: "Jump", description: "Cross-Chain Swap and Bridge", url: "https://jumper.exchange/"},
+            { name: "OpenOcean", logo: "OO", description: "DEX aggregator", url: "https://app.openocean.finance/swap/uni/ETH/USDC"}
         ],
         lending: [
-            { name: "Venus", logo: "V", description: "liquidity market", url: "https://app.venus.io/" }
+            { name: "Venus", logo: "V", description: "liquidity market", url: "https://app.venus.io/" },
+            { name: "Compound Finance", logo: "CF", description: "Lending", url: "https://app.compound.finance/?market=usdc-unichain"}
         ],
         nft: [
-            { name: "Nfts2Me", logo: "N2M", description: "multichain user-friendly", url: "https://nfts2me.com/" }
+            { name: "Opensea", logo: "OS", description: "multichain user-friendly", url: "https://opensea.io/discover/chain/unichain" }
 
         ],
         bridge: [
             { name: "Official Bridge", logo: "Off", description: "Official Bridge", url: "https://app.uniswap.org/swap"},
             { name: "SuperBridge", logo: "Sup", description: "Cross-Chainn Bridge", url: "https://superbridge.app/unichain"},
             { name: "Relay", logo: "R", description: "Cross-Chain Bridge", url: "https://relay.link/bridge/unichain"},
-            { name: "Mach Exchange", logo: "ME", description: "Cross-Chain Bridge", url: "https://app.mach.exchange/"}
+            { name: "Mach Exchange", logo: "ME", description: "Cross-Chain Bridge", url: "https://app.mach.exchange/"},
+            { name: "Synapse Protocol", logo: "SP", description: "Cross-Chain Bridge", url: "https://synapseprotocol.com/?toChainId=130"},
+            { name: "Bungee Exchange", logo: "BE", description: "Liquidity Marketplace", url: "https://www.bungee.exchange/"},
+            { name: "Symbiosis", logo: "S", description: "Cross-Chain Bridge", url: "https://app.symbiosis.finance/"}
         ]
     },
     monad: {
