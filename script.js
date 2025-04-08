@@ -123,7 +123,7 @@ const dapps = {
     },
     swell: {
         dex: [
-            { name: "Ambient", logo: "V", description: "Leading Inkchain DEX", url: "https://ambient.finance/trade" },
+            { name: "Ambient", logo: "V", description: "Leading Swell DEX", url: "https://ambient.finance/trade" },
             { name: "Bubly", logo: "R", description: "Community-driven DEX", url: "https://app.bubbly.finance/" },
             { name: "Nep Finance", logo: "R", description: "Community-driven DEX", url: "https://app.nep.finance/swap" }
         ],
@@ -136,7 +136,7 @@ const dapps = {
     },
     cyber: {
         dex: [
-            { name: "Owlto", logo: "O", description: "Leading Inkchain DEX", url: "https://owlto.finance/swap" },
+            { name: "Owlto", logo: "O", description: "Leading Cyber DEX", url: "https://owlto.finance/swap" },
             { name: "Izumi", logo: "I", description: "Community-driven DEX", url: "https://izumi.finance/trade/swap" }
         ],
         lending: [
@@ -150,8 +150,8 @@ const dapps = {
         dex: [
             { name: "Owlto", logo: "O", description: "Deploy Contract", url: "https://owlto.finance/deploy/?chain=MonadTestnet" },
             { name: "Izumi", logo: "I", description: "Community-driven DEX", url: "https://alpha.izumi.finance/trade/swap" },
-            { name: "Nitro Finance", logo: "NF", description: "Leading Inkchain DEX", url: "https://testapp.nitrofinance.xyz/trade" },
-            { name: "Bebop", logo: "B", description: "Leading Inkchain DEX", url: "https://bebop.xyz/trade?network=monad" },
+            { name: "Nitro Finance", logo: "NF", description: "Leading Monad DEX", url: "https://testapp.nitrofinance.xyz/trade" },
+            { name: "Bebop", logo: "B", description: "Leading Monaad DEX", url: "https://bebop.xyz/trade?network=monad" },
             { name: "Hashflow", logo: "HF", description: "Leading Inkchain DEX", url: "https://app.hashflow.com/?b=10143-USDC&q=10143-USDT" },
             { name: "Castora", logo: "C", description: "Dex", url: "https://castora.xyz/pools" },
             { name: "Clober", logo: "Crr", description: "Dex", url: "https://alpha.clober.io/trade?chain=10143" },
@@ -170,7 +170,7 @@ const dapps = {
             { name: "Pandara", logo: "P", description: "Dex", url: "https://pandaria.lfj.gg/monad-testnet/swap" },
             { name: "Nabla Finance", logo: "NF", description: "Dex", url: "https://app.nabla.fi/swap" },
             { name: "Bean Exchange", logo: "BE", description: "Dex", url: "https://swap.bean.exchange/swap" },
-            { name: "AiCraft Fun", logo: "AF", description: "Voting", url: "https://aicraft.fun/projects/fizen?ref=PLTL0FVZLK?ref=WC1EG2KWSG" },
+            { name: "AiCraft Fun", logo: "AF", description: "Voting", url: "https://aicraft.fun/projects/fizen?ref=97CZF5JCG1" },
             { name: "Dirol Network", logo: "DN", description: "Dex", url: "https://dex.dirol.network/swap" },
             { name: "Octo Exchange", logo: "OE", description: "Dex", url: "https://octo.exchange/swap" },
             { name: "Madness Finance", logo: "MF", description: "Dex", url: "https://madness.finance/swap" },
