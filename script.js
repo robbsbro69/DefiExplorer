@@ -198,6 +198,41 @@ const dapps = {
             { name: "Gas Zip", logo: "GZ", description: "Cross-Chain Bridge", url: "https://www.gas.zip/"}
         ]
     },
+    worldchain: {
+        dex: [
+            { name: "Uniswap", logo: "Uni", description: "Leading Worldchain DEX", url: "https://app.uniswap.org/" }
+        ],
+        lending: [
+            { name: "Ionic", logo: "I", description: "Algorithmic liquidity market", url: "https://app.ionic.money/" }
+        ],
+        nft: [
+            { name: "Nfts2Me", logo: "N2M", description: "multichain user-friendly", url: "https://nfts2me.com/" }
+
+        ],
+        bridge: [
+            { name: "SuperBridge", logo: "Sup", description: "Cross-Chainn Bridge", url: "https://superbridge.app/"},
+            { name: "Across", logo: "A", description: "Cross-Chain Bridge", url: "https://app.across.to/bridge"}
+        ]
+    },
+    unichain: {
+        dex: [
+            { name: "Uniswap", logo: "Uni", description: "Leading Worldchain DEX", url: "https://app.uniswap.org/" },
+            { name: "Jumper", logo: "Jump", description: "Cross-Chain Swap and Bridge", url: "https://jumper.exchange/"}
+        ],
+        lending: [
+            { name: "Venus", logo: "V", description: "liquidity market", url: "https://app.venus.io/" }
+        ],
+        nft: [
+            { name: "Nfts2Me", logo: "N2M", description: "multichain user-friendly", url: "https://nfts2me.com/" }
+
+        ],
+        bridge: [
+            { name: "Official Bridge", logo: "Off", description: "Official Bridge", url: "https://app.uniswap.org/swap"},
+            { name: "SuperBridge", logo: "Sup", description: "Cross-Chainn Bridge", url: "https://superbridge.app/unichain"},
+            { name: "Relay", logo: "R", description: "Cross-Chain Bridge", url: "https://relay.link/bridge/unichain"},
+            { name: "Mach Exchange", logo: "ME", description: "Cross-Chain Bridge", url: "https://app.mach.exchange/"}
+        ]
+    },
     monad: {
         dex: [
             { name: "Owlto", logo: "O", description: "Deploy Contract", url: "https://owlto.finance/deploy/?chain=MonadTestnet" },
