@@ -31,6 +31,7 @@ header {
 .main-nav {
     display: flex;
     gap: 10px;
+    margin-right: auto;
 }
 
 .nav-btn {
@@ -207,4 +208,12 @@ header {
 
 .about-content li {
     margin-bottom: 8px;
+}
+
+body:not(.explorer-mode) .chain-selector {
+    display: none;
+}
+
+.explorer-mode .main-nav {
+    margin-right: 0;
 }

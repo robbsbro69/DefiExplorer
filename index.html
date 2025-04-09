@@ -15,7 +15,7 @@
                 <button class="nav-btn" data-section="dailies">Daily Tasks</button>
                 <button class="nav-btn" data-section="about">About Us</button>
             </nav>
-            <div class="chain-selector">
+            <div class="chain-selector" id="chainSelectorContainer">
                 <select id="chainSelector">
                     <option value="ethereum">Ethereum</option>
                     <option value="bsc">Binance Smart Chain</option>
@@ -59,6 +59,7 @@
                     <button class="task-category-btn active" data-task="checkins">Check-ins</button>
                     <button class="task-category-btn" data-task="swaps">Daily Swaps</button>
                     <button class="task-category-btn" data-task="quests">Quests</button>
+                    <button class="task-category-btn" data-task="faucets">Faucets</button>
                 </div>
                 
                 <div id="checkins" class="task-section active-task">
@@ -71,6 +72,10 @@
                 
                 <div id="quests" class="task-section">
                     <div class="dapp-grid" id="questGrid"></div>
+                </div>
+
+                <div id="faucets" class="task-section">
+                    <div class="dapp-grid" id="faucetGrid"></div>
                 </div>
             </div>
             
