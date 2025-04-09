@@ -10,6 +10,11 @@
     <div class="container">
         <header>
             <div class="logo">Defi Explorer</div>
+            <nav class="main-nav">
+                <button class="nav-btn active" data-section="explorer">Explorer</button>
+                <button class="nav-btn" data-section="dailies">Daily Tasks</button>
+                <button class="nav-btn" data-section="about">About Us</button>
+            </nav>
             <div class="chain-selector">
                 <select id="chainSelector">
                     <option value="ethereum">Ethereum</option>
@@ -31,24 +36,59 @@
         </header>
         
         <main>
-            <div class="section">
-                <div class="section-title">Decentralized Exchanges (DEX)</div>
+            <!-- Explorer Section -->
+            <div id="explorer" class="section active-section">
+                <div class="section-title">DEX Explorer</div>
                 <div class="dapp-grid" id="dexGrid"></div>
-            </div>
-            
-            <div class="section">
+                
                 <div class="section-title">Lending Protocols</div>
                 <div class="dapp-grid" id="lendingGrid"></div>
-            </div>
-            
-            <div class="section">
+                
                 <div class="section-title">NFT Marketplaces</div>
                 <div class="dapp-grid" id="nftGrid"></div>
-            </div>
 
-            <div class="section">
-                <div class="section-title">Bridge</div>
+                <div class="section-title">Bridges</div>
                 <div class="dapp-grid" id="bridgeGrid"></div>
+            </div>
+            
+            <!-- Daily Tasks Section -->
+            <div id="dailies" class="section">
+                <div class="section-title">Daily Tasks</div>
+                
+                <div class="task-categories">
+                    <button class="task-category-btn active" data-task="checkins">Check-ins</button>
+                    <button class="task-category-btn" data-task="swaps">Daily Swaps</button>
+                    <button class="task-category-btn" data-task="quests">Quests</button>
+                </div>
+                
+                <div id="checkins" class="task-section active-task">
+                    <div class="dapp-grid" id="checkinGrid"></div>
+                </div>
+                
+                <div id="swaps" class="task-section">
+                    <div class="dapp-grid" id="swapGrid"></div>
+                </div>
+                
+                <div id="quests" class="task-section">
+                    <div class="dapp-grid" id="questGrid"></div>
+                </div>
+            </div>
+            
+            <!-- About Us Section -->
+            <div id="about" class="section">
+                <div class="section-title">About Defi Explorer</div>
+                <div class="about-content">
+                    <p>Defi Explorer is your comprehensive guide to decentralized finance across multiple blockchains. Our mission is to simplify your DeFi journey by providing easy access to all major protocols in one place.</p>
+                    <p>Features:</p>
+                    <ul>
+                        <li>Multi-chain DEX aggregator</li>
+                        <li>Lending protocol comparison</li>
+                        <li>NFT marketplace explorer</li>
+                        <li>Daily task tracker</li>
+                        <li>Bridge directory</li>
+                    </ul>
+                    <p>Contact us: robbsbro69@proton.me</p>
+                </div>
             </div>
         </main>
     </div>

@@ -1,3 +1,74 @@
+document.addEventListener('DOMContentLoaded', function() {
+    
+    document.querySelectorAll('.nav-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active-section'));
+            
+            
+            this.classList.add('active');
+            const sectionId = this.getAttribute('data-section');
+            document.getElementById(sectionId).classList.add('active-section');
+        });
+    });
+    
+    
+    document.querySelectorAll('.task-category-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            
+            document.querySelectorAll('.task-category-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.task-section').forEach(s => s.classList.remove('active-task'));
+            
+            
+            this.classList.add('active');
+            const taskId = this.getAttribute('data-task');
+            document.getElementById(taskId).classList.add('active-task');
+        });
+    });
+    
+    
+    populateDailyTasks();
+});
+
+function populateDailyTasks() {
+    const dailyTasks = {
+        checkins: [
+            { name: "Layer3", logo: "L", description: "Daily quests", url: "https://app.layer3.xyz/quests" },
+            { name: "Lootex", logo: "LE", description: "Complete tasks", url: "https://lootex.io/invite/LM7C7N" },
+            { name: "Superboard", logo: "SB", description: "Quests and Fun", url: "https://superboard.xyz/quests"},
+            { name: "Alva", logo: "A", description: "AI and Fun", url: "https://alva.xyz/Referral/?r=Y5JE78"},
+            { name: "Owlto Finance", logo: "Owl", description: "Daily Check-in", url: "https://owlto.finance/?ref=0xe88d2D7e13a71eA68A438b9FEdD6363bE48A0373"},
+            { name: "Orbiter Finance", logo: "Orb", description: "Daily Check-in", url: "https://orbiter.finance/?channel=0xe88d2d7e13a71ea68a438b9fedd6363be48a0373"},
+            { name: "Magic Netwon", logo: "MN", description: "Daily Roll Dice", url: "https://magicnewton.com/portal?referral=xe1v65se5r2ebf17"}
+        ],
+        swaps: [
+            { name: "Mach Exchange", logo: "ME", description: "Ref Code: HBWDK", url: "https://app.mach.exchange/" },
+            { name: "Concerno", logo: "P", description: "Daily trade", url: "https://app.concero.io/rewards" },
+            { name: "Infinex", logo: "In", description: "Daily swap", url: "https://app.infinex.xyz/earn"}
+        ],
+        quests: [
+            { name: "Linera Galxe", logo: "LG", description: "Complete quests", url: "https://app.galxe.com/quest/Linera/GCbMUtpawv" },
+            { name: "Dmail", logo: "D", description: "Daily Mail", url: "https://mail.dmail.ai/login?icode=118666"}
+        ]
+    };
+    
+    dailyTasks.checkins.forEach(task => {
+        const card = createDappCard(task);
+        document.getElementById('checkinGrid').appendChild(card);
+    });
+    
+    dailyTasks.swaps.forEach(task => {
+        const card = createDappCard(task);
+        document.getElementById('swapGrid').appendChild(card);
+    });
+    
+    dailyTasks.quests.forEach(task => {
+        const card = createDappCard(task);
+        document.getElementById('questGrid').appendChild(card);
+    });
+}
+
 const dapps = {
     ethereum: {
         dex: [
