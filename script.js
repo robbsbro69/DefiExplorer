@@ -360,7 +360,11 @@ function populateDailyTasks() {
             { name: "Dmail", logo: "D", description: "Daily Mail", url: "https://mail.dmail.ai/login?icode=118666"}
         ],
         faucets: [
-            { name: "Sepolia Faucet", logo: "Sep", description: "Claim", url: "https://sepoliafaucet.com/"}
+            { name: "Sepolia Faucet", logo: "Sep", description: "Claim", url: "https://sepoliafaucet.com/"},
+            { name: "Sahara AI", logo: "SAH", description: "Faucet", url: "https://faucet.saharalabs.ai/"},
+            { name: "OG Labs", logo: "OG", description: "Faucet", url: "https://hub.0g.ai/faucet"},
+            { name: "GTE Labs", logo: "GTE", description: "Faucet", url: "https://testnet.gte.xyz/"},
+            { name: "Megaeth", logo: "ME", description: "Faucet", url: "https://testnet.megaeth.com/#3"}
         ]
     };
     
