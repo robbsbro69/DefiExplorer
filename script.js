@@ -358,7 +358,8 @@ function populateDailyTasks() {
             { name: "Alva", logo: "A", description: "AI and Fun", url: "https://alva.xyz/Referral/?r=Y5JE78"},
             { name: "Owlto Finance", logo: "Owl", description: "Daily Check-in", url: "https://owlto.finance/?ref=0xe88d2D7e13a71eA68A438b9FEdD6363bE48A0373"},
             { name: "Orbiter Finance", logo: "Orb", description: "Daily Check-in", url: "https://orbiter.finance/?channel=0xe88d2d7e13a71ea68a438b9fedd6363be48a0373"},
-            { name: "Magic Netwon", logo: "MN", description: "Daily Roll Dice", url: "https://magicnewton.com/portal?referral=xe1v65se5r2ebf17"}
+            { name: "Magic Netwon", logo: "MN", description: "Daily Roll Dice", url: "https://magicnewton.com/portal?referral=xe1v65se5r2ebf17"},
+            { name: "Vendetta", logo: "V", description: "Daily Check-In", url: "http://vendettagame.xyz/quest?refercode=BQIdhqJrf2NA"}
         ],
         swaps: [
             { name: "Mach Exchange", logo: "ME", description: "Ref Code: HBWDK", url: "https://app.mach.exchange/" },
