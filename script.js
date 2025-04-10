@@ -185,6 +185,27 @@ const dapps = {
             { name: "Relay", logo: "rel", description: "Cross-Chain Bridge", url: "https://relay.link/bridge/ink?includeChainIds=57073"}
         ]
     },
+    superseed: {
+        dex: [
+            { name: "Bebop", logo: "B", description: "Leading Superseed DEX", url: "https://bebop.xyz/trade?network=superseed&buy" },
+            { name: "SeedFi", logo: "SF", description: "Community-driven DEX", url: "https://seedfi.trade" },
+            { name: "Velodrome", logo: "V", description: "Leading Superseed DEX", url: "https://velodrome.finance/" },
+            { name: "Bulletx", logo: "Bx", description: "Dex", url: "https://bulletx.io/swap"},
+            { name: "ThirdWeb", logo: "TW", description:"Deploy contract", url: "https://thirdweb.com/explore"}
+        ],
+        lending: [
+            { name: "Ionic", logo: "I", description: "Algorithmic liquidity market", url: "https://app.ionic.money/market" }
+        ],
+        nft: [
+            { name: "Fractal Visions", logo: "FV", description: "Multi-chain NFT platform", url: "https://www.fractalvisions.io/" },
+            { name: "Mintpad", logo: "MP", description: "Mint NFT", url: "https://mintpad.co/create/edition/"}
+        ],
+        bridge: [
+            { name: "Official Bridge", logo: "Off", description: "Official Bridge", url: "https://bridge.superseed.xyz/"},
+            { name: "Relay", logo: "rel", description: "Cross-Chain Bridge", url: "https://relay.link/bridge"},
+            { name: "Layerswap", logo: "LS", description: "Cross-Chain Bridge", url: "https://layerswap.io/app"}
+        ]
+    },
     swell: {
         dex: [
             { name: "Ambient", logo: "V", description: "Leading Swell DEX", url: "https://ambient.finance/trade" },
