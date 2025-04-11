@@ -110,7 +110,6 @@ const dapps = {
     solana: {
         dex: [
             { name: "Raydium", logo: "R", description: "AMM and yield protocol", url: "https://raydium.io/swap" },
-            { name: "Serum", logo: "S", description: "CLOB DEX", url: "https://projectserum.com" },
             { name: "Orca", logo: "O", description: "User-friendly DEX", url: "https://www.orca.so" }
         ],
         lending: [
