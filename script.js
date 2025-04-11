@@ -153,7 +153,6 @@ const dapps = {
             { name: "Zerolend", logo: "ZL", description: "Liquidity protocol", url: "https://app.zerolend.xyz/markets/?marketName=proto_manta_v3" },
             { name: "Omni", logo: "Oi", description: "Liquidity protocol", url: "https://omni.ls/" },
             { name: "Accumulated Finance", logo: "AF", description: "Liquidity protocol", url: "https://accumulated.finance/stake/manta" },
-            { name: "Layerbank", logo: "Lb", description: "Liquidity protocol", url: "https://app.layerbank.finance/manta-pacific/bank" },
             { name: "MonRoe", logo: "I", description: "Lending", url: "https://app.monroeprotocol.com/vaults" }
         ],
         nft: [
