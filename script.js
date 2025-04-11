@@ -139,13 +139,13 @@ const dapps = {
             { name: "GullSwap", logo: "dex/gullswap.jpg", description: "Leading Manta DEX", url: "https://app.gullnetwork.com/swap" },
             { name: "Izumi", logo: "dex/izumi.jpg", description: "Community-driven DEX", url: "https://izumi.finance/trade/swap" },
             { name: "Oku Trade", logo: "dex/okutrade.jpg", description: "Community-driven DEX", url: "https://oku.trade/?inputChain=manta" },
-            { name: "Pixelswap", logo: "I", description: "Community-driven DEX", url: "https://app.pixelswap.xyz/#/swap" },
-            { name: "DoDoEx", logo: "I", description: "Community-driven DEX", url: "https://app.dodoex.io/" },
-            { name: "DapDap", logo: "I", description: "Community-driven DEX", url: "https://app.dapdap.net/super-swap" },
-            { name: "Aperture", logo: "I", description: "Community-driven DEX", url: "https://app.aperture.finance/" },
-            { name: "Cetoswap", logo: "I", description: "Community-driven DEX", url: "https://cetoswap.com/#/" },
-            { name: "Impossible Finance", logo: "I", description: "Community-driven DEX", url: "https://impossible.finance/" },
-            { name: "Firefly Dex", logo: "I", description: "Community-driven DEX", url: "https://fireflydex.io/#/swap" }            
+            { name: "Pixelswap", logo: "dex/pixelswap.jpg", description: "Community-driven DEX", url: "https://app.pixelswap.xyz/#/swap" },
+            { name: "DoDoEx", logo: "dex/dodo.jpg", description: "Community-driven DEX", url: "https://app.dodoex.io/" },
+            { name: "DapDap", logo: "dex/dapdap.jpg", description: "Community-driven DEX", url: "https://app.dapdap.net/super-swap" },
+            { name: "Aperture", logo: "dex/aperture.jpg", description: "Community-driven DEX", url: "https://app.aperture.finance/" },
+            { name: "Cetoswap", logo: "dex/cetoswap.jpg", description: "Community-driven DEX", url: "https://cetoswap.com/#/" },
+            { name: "Impossible Finance", logo: "dex/impossiblefi.jpg", description: "Community-driven DEX", url: "https://impossible.finance/" },
+            { name: "Firefly Dex", logo: "dex/firefly.jpg", description: "Community-driven DEX", url: "https://fireflydex.io/#/swap" }            
         ],
         lending: [
             { name: "Shoebill", logo: "Sb", description: "Liquidity market", url: "https://manta-manta.shoebill.finance/#/" },
