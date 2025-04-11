@@ -411,7 +411,7 @@ const dapps = {
 
         ],
         bridge: [
-            { name: "Coming Soon", logo: "CS", description: "Coming Soon", url: ""}
+            { name: "Gas zip", logo: "GZ", description: "Faucet and bridge", url: "https://www.gas.zip/faucet/rise"}
         ]
     }
 };
