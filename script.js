@@ -94,31 +94,31 @@ const dapps = {
     },
     polygon: {
         dex: [
-            { name: "QuickSwap", logo: "Q", description: "Layer 2 DEX", url: "https://quickswap.exchange" },
-            { name: "SushiSwap", logo: "S", description: "Multi-chain DEX", url: "https://app.sushi.com/swap?chainId=137" },
-            { name: "Dfyn", logo: "D", description: "Multi-chain router protocol", url: "https://exchange.dfyn.network" }
+            { name: "QuickSwap", logo: "dex/quickswap.jpg", description: "Layer 2 DEX", url: "https://quickswap.exchange" },
+            { name: "SushiSwap", logo: "dex/sushiswap", description: "Multi-chain DEX", url: "https://app.sushi.com/swap?chainId=137" },
+            { name: "Dfyn", logo: "dex/dfyn.jpg", description: "Multi-chain router protocol", url: "https://exchange.dfyn.network" }
         ],
         lending: [
-            { name: "Aave", logo: "A", description: "Liquidity protocol", url: "https://app.aave.com/?marketName=proto_polygon" },
-            { name: "Mai Finance", logo: "M", description: "Collateralized stablecoin", url: "https://app.mai.finance" }
+            { name: "Aave", logo: "dex/aave.png", description: "Liquidity protocol", url: "https://app.aave.com/?marketName=proto_polygon" },
+            { name: "Mai Finance", logo: "dex/maifinance.jpg", description: "Collateralized stablecoin", url: "https://app.mai.finance" }
         ],
         nft: [
-            { name: "OpenSea", logo: "O", description: "Largest NFT marketplace", url: "https://opensea.io/blockchain/polygon" },
-            { name: "Rarible", logo: "R", description: "Creator-focused marketplace", url: "https://rarible.com/polygon" }
+            { name: "OpenSea", logo: "dex/opensea.jpg", description: "Largest NFT marketplace", url: "https://opensea.io/blockchain/polygon" },
+            { name: "Rarible", logo: "dex/rarible.jpg", description: "Creator-focused marketplace", url: "https://rarible.com/polygon" }
         ]
     },
     solana: {
         dex: [
-            { name: "Raydium", logo: "R", description: "AMM and yield protocol", url: "https://raydium.io/swap" },
-            { name: "Orca", logo: "O", description: "User-friendly DEX", url: "https://www.orca.so" }
+            { name: "Raydium", logo: "dex/raydium.jpg", description: "AMM and yield protocol", url: "https://raydium.io/swap" },
+            { name: "Orca", logo: "dex/orca.png", description: "User-friendly DEX", url: "https://www.orca.so" }
         ],
         lending: [
-            { name: "Save Finance", logo: "S", description: "Algorithmic lending", url: "https://save.finance/" }
+            { name: "Save Finance", logo: "dex/savefinance.jpg", description: "Algorithmic lending", url: "https://save.finance/" }
         ],
         nft: [
-            { name: "Magic Eden", logo: "M", description: "Leading Solana marketplace", url: "https://magiceden.io" },
-            { name: "Solanart", logo: "S", description: "First Solana NFT marketplace", url: "https://solanart.io" },
-            { name: "Metaplex", logo: "M", description: "NFT storefront protocol", url: "https://www.metaplex.com" }
+            { name: "Magic Eden", logo: "dex/magiceden.jpg", description: "Leading Solana marketplace", url: "https://magiceden.io" },
+            { name: "Solanart", logo: "dex/solanart.jpg", description: "First Solana NFT marketplace", url: "https://solanart.io" },
+            { name: "Metaplex", logo: "dex/metaplex.jpg", description: "NFT storefront protocol", url: "https://www.metaplex.com" }
         ]
     },
     avalanche: {
