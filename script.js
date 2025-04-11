@@ -424,6 +424,7 @@ function populateDailyTasks() {
     const dailyTasks = {
         checkins: [
             { name: "Layer3", logo: "L", description: "Daily quests", url: "https://app.layer3.xyz/quests" },
+            { name: "Succinct", logo: "S", description: "Generate proofs, earn stars", url: "https://testnet.succinct.xyz/dashboard"},
             { name: "Lootex", logo: "LE", description: "Complete tasks", url: "https://lootex.io/invite/LM7C7N" },
             { name: "Superboard", logo: "SB", description: "Quests and Fun", url: "https://superboard.xyz/quests"},
             { name: "Alva", logo: "A", description: "AI and Fun", url: "https://alva.xyz/Referral/?r=Y5JE78"},
