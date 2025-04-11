@@ -80,17 +80,16 @@ const dapps = {
     },
     bsc: {
         dex: [
-            { name: "PancakeSwap", logo: "P", description: "Leading BSC DEX", url: "https://pancakeswap.finance" },
-            { name: "MDEX", logo: "M", description: "Multi-chain DEX", url: "https://mdex.com" },
-            { name: "BakerySwap", logo: "B", description: "NFT and DEX platform", url: "https://www.bakeryswap.org" }
+            { name: "PancakeSwap", logo: "dex/pancake.jpg", description: "Leading BSC DEX", url: "https://pancakeswap.finance" },
+            { name: "MDEX", logo: "dex/mdex.png", description: "Multi-chain DEX", url: "https://mdex.com" },
+            { name: "BakerySwap", logo: "dex/bakeryswap.jpg", description: "NFT and DEX platform", url: "https://www.bakeryswap.org" }
         ],
         lending: [
-            { name: "Venus", logo: "V", description: "Algorithmic money market", url: "https://app.venus.io" },
-            { name: "Alpaca Finance", logo: "A", description: "Leveraged yield farming", url: "https://app.alpacafinance.org" }
+            { name: "Venus", logo: "dex/venus.png", description: "Algorithmic money market", url: "https://app.venus.io" },
+            { name: "Alpaca Finance", logo: "dex/alpaca.png", description: "Leveraged yield farming", url: "https://app.alpacafinance.org" }
         ],
         nft: [
-            { name: "BinanceNFT", logo: "B", description: "Official Binance marketplace", url: "https://www.binance.com/en/nft/home" },
-            { name: "Refinable", logo: "R", description: "Multi-chain NFT marketplace", url: "https://refinable.com" }
+            { name: "BinanceNFT", logo: "dex/binance.jpg", description: "Official Binance marketplace", url: "https://www.binance.com/en/nft/home" }
         ]
     },
     polygon: {
