@@ -113,8 +113,7 @@ const dapps = {
             { name: "Orca", logo: "O", description: "User-friendly DEX", url: "https://www.orca.so" }
         ],
         lending: [
-            { name: "Save Finance", logo: "S", description: "Algorithmic lending", url: "https://save.finance/" },
-            { name: "Jet Protocol", logo: "J", description: "Borrowing and lending", url: "https://jetprotocol.io" }
+            { name: "Save Finance", logo: "S", description: "Algorithmic lending", url: "https://save.finance/" }
         ],
         nft: [
             { name: "Magic Eden", logo: "M", description: "Leading Solana marketplace", url: "https://magiceden.io" },
