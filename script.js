@@ -386,6 +386,33 @@ const dapps = {
             { name: "Impossible Finance", logo: "IF", description: "Complete social and Mint", url: "https://app.impossible.finance/launchpad/project/160?ref=blog.impossible.finance"},
             { name: "Free Mint", logo: "FM", description: "Mint NFT", url: "https://testnet.freee.xyz/collect/monadt:0xAb0bA06c13eC49c0842ef4716CeB1593f2C41779/token/5"}
         ]
+    },
+    risechain: {
+        dex: [
+            { name: "For the kingdom", logo: "FTK", description: "Gaming", url: "https://forthekingdom.xyz/" },
+            { name: "Gas Pump", logo: "GP", description: "Native DEX", url: "https://gaspump.network/swap"},
+            { name: "B3X", logo: "B3x", description: "DEX", url: "https://testnet.b3x.ai/#/trade"},
+            { name: "Inari Finance", logo: "IF", description: "Dex", url: "https://www.inarifi.com/"},
+            { name: "GTX", logo: "G", description: "Dex", url: "https://gtxdex.xyz/waitlist"},
+            { name: "Ultra", logo: "U", description: "Dex", url: "https://ultra-fi.xyz/"},
+            { name: "Clober", logo: "C", description: "Dex", url: "https://rise.clober.io/"},
+            { name: "Standard", logo: "S", description: "Dex", url: "https://app.standardweb3.com/"},
+            { name: "LeoFi", logo: "LF", description: "Dex", url: "https://etn.leofi.xyz/"},
+            { name: "Chess_Onchain", logo: "CO", description: "Play chess", url: "https://play.chessonchain.io/"},
+            { name: "Haifu", logo: "H", description: "AI", url: "https://haifu.fun/"},
+
+        ],
+        lending: [
+            { name: "Coming Soon", logo: "CS", description: "Coming Soon", url: ""}
+        ],
+        nft: [
+            { name: "Nfts2me", logo: "N2M", description: "create and mint nft's", url: "https://nfts2me.com/app/rise-testnet/" },
+            { name: "Relic", logo: "R", description: "Nfts Marketplace", url: "https://www.therelic.art/"}
+
+        ],
+        bridge: [
+            { name: "Coming Soon", logo: "CS", description: "Coming Soon", url: ""}
+        ]
     }
 };
 
