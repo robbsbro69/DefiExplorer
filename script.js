@@ -80,53 +80,50 @@ const dapps = {
     },
     bsc: {
         dex: [
-            { name: "PancakeSwap", logo: "P", description: "Leading BSC DEX", url: "https://pancakeswap.finance" },
-            { name: "MDEX", logo: "M", description: "Multi-chain DEX", url: "https://mdex.com" },
-            { name: "BakerySwap", logo: "B", description: "NFT and DEX platform", url: "https://www.bakeryswap.org" }
+            { name: "PancakeSwap", logo: "dex/pancake.jpg", description: "Leading BSC DEX", url: "https://pancakeswap.finance" },
+            { name: "MDEX", logo: "dex/mdex.png", description: "Multi-chain DEX", url: "https://mdex.com" },
+            { name: "BakerySwap", logo: "dex/bakeryswap.jpg", description: "NFT and DEX platform", url: "https://www.bakeryswap.org" }
         ],
         lending: [
-            { name: "Venus", logo: "V", description: "Algorithmic money market", url: "https://app.venus.io" },
-            { name: "Alpaca Finance", logo: "A", description: "Leveraged yield farming", url: "https://app.alpacafinance.org" }
+            { name: "Venus", logo: "dex/venus.png", description: "Algorithmic money market", url: "https://app.venus.io" },
+            { name: "Alpaca Finance", logo: "dex/alpaca.png", description: "Leveraged yield farming", url: "https://app.alpacafinance.org" }
         ],
         nft: [
-            { name: "BinanceNFT", logo: "B", description: "Official Binance marketplace", url: "https://www.binance.com/en/nft/home" },
-            { name: "Refinable", logo: "R", description: "Multi-chain NFT marketplace", url: "https://refinable.com" }
+            { name: "BinanceNFT", logo: "dex/binance.jpg", description: "Official Binance marketplace", url: "https://www.binance.com/en/nft/home" }
         ]
     },
     polygon: {
         dex: [
-            { name: "QuickSwap", logo: "Q", description: "Layer 2 DEX", url: "https://quickswap.exchange" },
-            { name: "SushiSwap", logo: "S", description: "Multi-chain DEX", url: "https://app.sushi.com/swap?chainId=137" },
-            { name: "Dfyn", logo: "D", description: "Multi-chain router protocol", url: "https://exchange.dfyn.network" }
+            { name: "QuickSwap", logo: "dex/quickswap.jpg", description: "Layer 2 DEX", url: "https://quickswap.exchange" },
+            { name: "SushiSwap", logo: "dex/sushiswap.jpg", description: "Multi-chain DEX", url: "https://app.sushi.com/swap?chainId=137" },
+            { name: "Dfyn", logo: "dex/dfyn.jpg", description: "Multi-chain router protocol", url: "https://exchange.dfyn.network" }
         ],
         lending: [
-            { name: "Aave", logo: "A", description: "Liquidity protocol", url: "https://app.aave.com/?marketName=proto_polygon" },
-            { name: "Mai Finance", logo: "M", description: "Collateralized stablecoin", url: "https://app.mai.finance" }
+            { name: "Aave", logo: "dex/aave.png", description: "Liquidity protocol", url: "https://app.aave.com/?marketName=proto_polygon" },
+            { name: "Mai Finance", logo: "dex/maifinance.jpg", description: "Collateralized stablecoin", url: "https://app.mai.finance" }
         ],
         nft: [
-            { name: "OpenSea", logo: "O", description: "Largest NFT marketplace", url: "https://opensea.io/blockchain/polygon" },
-            { name: "Rarible", logo: "R", description: "Creator-focused marketplace", url: "https://rarible.com/polygon" }
+            { name: "OpenSea", logo: "dex/opensea.jpg", description: "Largest NFT marketplace", url: "https://opensea.io/blockchain/polygon" },
+            { name: "Rarible", logo: "dex/rarible.jpg", description: "Creator-focused marketplace", url: "https://rarible.com/polygon" }
         ]
     },
     solana: {
         dex: [
-            { name: "Raydium", logo: "R", description: "AMM and yield protocol", url: "https://raydium.io/swap" },
-            { name: "Serum", logo: "S", description: "CLOB DEX", url: "https://projectserum.com" },
-            { name: "Orca", logo: "O", description: "User-friendly DEX", url: "https://www.orca.so" }
+            { name: "Raydium", logo: "dex/raydium.jpg", description: "AMM and yield protocol", url: "https://raydium.io/swap" },
+            { name: "Orca", logo: "dex/orca.png", description: "User-friendly DEX", url: "https://www.orca.so" }
         ],
         lending: [
-            { name: "Solend", logo: "S", description: "Algorithmic lending", url: "https://solend.fi" },
-            { name: "Jet Protocol", logo: "J", description: "Borrowing and lending", url: "https://jetprotocol.io" }
+            { name: "Save Finance", logo: "dex/savefinance.jpg", description: "Algorithmic lending", url: "https://save.finance/" }
         ],
         nft: [
-            { name: "Magic Eden", logo: "M", description: "Leading Solana marketplace", url: "https://magiceden.io" },
-            { name: "Solanart", logo: "S", description: "First Solana NFT marketplace", url: "https://solanart.io" },
-            { name: "Metaplex", logo: "M", description: "NFT storefront protocol", url: "https://www.metaplex.com" }
+            { name: "Magic Eden", logo: "dex/magiceden.jpg", description: "Leading Solana marketplace", url: "https://magiceden.io" },
+            { name: "Solanart", logo: "dex/solanart.jpg", description: "First Solana NFT marketplace", url: "https://solanart.io" },
+            { name: "Metaplex", logo: "dex/metaplex.jpg", description: "NFT storefront protocol", url: "https://www.metaplex.com" }
         ]
     },
     avalanche: {
         dex: [
-            { name: "TraderJoe", logo: "T", description: "Leading Avalanche DEX", url: "https://traderjoexyz.com" },
+            { name: "LFJ", logo: "dex/lfj.jpg", description: "Leading Avalanche DEX", url: "https://lfj.gg/" },
             { name: "Pangolin", logo: "P", description: "Community-driven DEX", url: "https://app.pangolin.exchange" }
         ],
         lending: [
