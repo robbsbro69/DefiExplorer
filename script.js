@@ -280,7 +280,7 @@ const dapps = {
             { name: "Ionic", logo: "dex/ionic.jpg", description: "Algorithmic liquidity market", url: "https://app.ionic.money/" }
         ],
         nft: [
-            { name: "Nfts2Me", logo: "dex/nfts2me.jpg", description: "multichain user-friendly", url: "https://nfts2me.com/" }
+            { name: "Nfts2Me", logo: "dex/nfts2me.png", description: "multichain user-friendly", url: "https://nfts2me.com/" }
 
         ],
         bridge: [
@@ -316,16 +316,16 @@ const dapps = {
         dex: [
             { name: "Owlto", logo: "dex/owlto.jpg", description: "Deploy Contract", url: "https://owlto.finance/deploy/?chain=MonadTestnet" },
             { name: "Izumi", logo: "dex/izumi.jpg", description: "Community-driven DEX", url: "https://alpha.izumi.finance/trade/swap" },
-            { name: "Nitro Finance", logo: "NF", description: "Leading Monad DEX", url: "https://testapp.nitrofinance.xyz/trade" },
+            { name: "Nitro Finance", logo: "dex/nitrofi.jpg", description: "Leading Monad DEX", url: "https://testapp.nitrofinance.xyz/trade" },
             { name: "Bebop", logo: "dex/bebop.jpg", description: "Leading Monaad DEX", url: "https://bebop.xyz/trade?network=monad" },
-            { name: "Hashflow", logo: "HF", description: "Leading Inkchain DEX", url: "https://app.hashflow.com/?b=10143-USDC&q=10143-USDT" },
-            { name: "Castora", logo: "C", description: "Dex", url: "https://castora.xyz/pools" },
-            { name: "Clober", logo: "Crr", description: "Dex", url: "https://alpha.clober.io/trade?chain=10143" },
-            { name: "Crystal", logo: "C", description: "Dex", url: "https://app.crystal.exchange/swap" },
-            { name: "Fukunad", logo: "F", description: "Raffle", url: "https://testnet.fukunad.xyz/raffle" },
-            { name: "Nextmate", logo: "N", description: "Voting", url: "https://nextmate.ai/predictionMarket?chainType=monad_testnet" },
+            { name: "Hashflow", logo: "dex/hashflow.png", description: "Leading Inkchain DEX", url: "https://app.hashflow.com/?b=10143-USDC&q=10143-USDT" },
+            { name: "Castora", logo: "dex/castora.jpg", description: "Dex", url: "https://castora.xyz/pools" },
+            { name: "Clober", logo: "dex/clober.jpg", description: "Dex", url: "https://alpha.clober.io/trade?chain=10143" },
+            { name: "Crystal", logo: "dex/crystal.jpg", description: "Dex", url: "https://app.crystal.exchange/swap" },
+            { name: "Fukunad", logo: "dex/fukunad.jpg", description: "Raffle", url: "https://testnet.fukunad.xyz/raffle" },
+            { name: "Nextmate", logo: "dex/nextmateai.jpg", description: "Voting", url: "https://nextmate.ai/predictionMarket?chainType=monad_testnet" },
             { name: "PancakeSwap", logo: "dex/pancake.jpg", description: "Dex", url: "https://pancakeswap.finance/swap" },
-            { name: "PlayGround", logo: "P", description: "Dex", url: "https://playground.easy-node.xyz/" },
+            { name: "PlayGround", logo: "dex/easynodexyz.jpg", description: "Dex", url: "https://playground.easy-node.xyz/" },
             { name: "Ambient Finance", logo: "dex/ambient.jpg", description: "Dex", url: "https://monad.ambient.finance" },
             { name: "Monorail", logo: "M", description: "Dex", url: "https://testnet-preview.monorail.xyz/" },
             { name: "Azar", logo: "A", description: "Dex", url: "https://app-monad-testnet.azaar.com/swap" },
@@ -402,7 +402,7 @@ const dapps = {
             { name: "Coming Soon", logo: "CS", description: "Coming Soon", url: ""}
         ],
         nft: [
-            { name: "Nfts2me", logo: "dex/nfts2me.jpg", description: "create and mint nft's", url: "https://nfts2me.com/app/rise-testnet/" },
+            { name: "Nfts2me", logo: "dex/nfts2me.png", description: "create and mint nft's", url: "https://nfts2me.com/app/rise-testnet/" },
             { name: "Relic", logo: "R", description: "Nfts Marketplace", url: "https://www.therelic.art/"}
 
         ],
