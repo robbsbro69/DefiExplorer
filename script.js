@@ -95,7 +95,7 @@ const dapps = {
     polygon: {
         dex: [
             { name: "QuickSwap", logo: "dex/quickswap.jpg", description: "Layer 2 DEX", url: "https://quickswap.exchange" },
-            { name: "SushiSwap", logo: "dex/sushiswap", description: "Multi-chain DEX", url: "https://app.sushi.com/swap?chainId=137" },
+            { name: "SushiSwap", logo: "dex/sushiswap.jpg", description: "Multi-chain DEX", url: "https://app.sushi.com/swap?chainId=137" },
             { name: "Dfyn", logo: "dex/dfyn.jpg", description: "Multi-chain router protocol", url: "https://exchange.dfyn.network" }
         ],
         lending: [
