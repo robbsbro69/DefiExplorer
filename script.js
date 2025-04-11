@@ -183,56 +183,56 @@ const dapps = {
     },
     superseed: {
         dex: [
-            { name: "Bebop", logo: "B", description: "Leading Superseed DEX", url: "https://bebop.xyz/trade?network=superseed&buy" },
-            { name: "SeedFi", logo: "SF", description: "Community-driven DEX", url: "https://seedfi.trade" },
+            { name: "Bebop", logo: "dex/bebop.jpg", description: "Leading Superseed DEX", url: "https://bebop.xyz/trade?network=superseed&buy" },
+            { name: "SeedFi", logo: "dex/seedfi.jpg", description: "Community-driven DEX", url: "https://seedfi.trade" },
             { name: "Velodrome", logo: "dex/velodrome.jpg", description: "Leading Superseed DEX", url: "https://velodrome.finance/" },
-            { name: "Bulletx", logo: "Bx", description: "Dex", url: "https://bulletx.io/swap"},
-            { name: "ThirdWeb", logo: "TW", description:"Deploy contract", url: "https://thirdweb.com/explore"}
+            { name: "Bulletx", logo: "dex/bulletx.jpg", description: "Dex", url: "https://bulletx.io/swap"},
+            { name: "ThirdWeb", logo: "dex/thirdweb.jpg", description:"Deploy contract", url: "https://thirdweb.com/explore"}
         ],
         lending: [
             { name: "Ionic", logo: "dex/ionic.jpg", description: "Algorithmic liquidity market", url: "https://app.ionic.money/market" }
         ],
         nft: [
-            { name: "Fractal Visions", logo: "FV", description: "Multi-chain NFT platform", url: "https://www.fractalvisions.io/" },
-            { name: "Mintpad", logo: "MP", description: "Mint NFT", url: "https://mintpad.co/create/edition/"}
+            { name: "Fractal Visions", logo: "dex/fractolvision.jpg", description: "Multi-chain NFT platform", url: "https://www.fractalvisions.io/" },
+            { name: "Mintpad", logo: "dex/mintpad.jpg", description: "Mint NFT", url: "https://mintpad.co/create/edition/"}
         ],
         bridge: [
-            { name: "Official Bridge", logo: "Off", description: "Official Bridge", url: "https://bridge.superseed.xyz/"},
+            { name: "Official Bridge", logo: "dex/superseed.jpg", description: "Official Bridge", url: "https://bridge.superseed.xyz/"},
             { name: "Relay", logo: "dex/relay.jpg", description: "Cross-Chain Bridge", url: "https://relay.link/bridge"},
             { name: "Layerswap", logo: "dex/layerswap.jpg", description: "Cross-Chain Bridge", url: "https://layerswap.io/app"}
         ]
     },
     swell: {
         dex: [
-            { name: "Ambient", logo: "V", description: "Leading Swell DEX", url: "https://ambient.finance/trade" },
-            { name: "Bubly", logo: "R", description: "Community-driven DEX", url: "https://app.bubbly.finance/" },
-            { name: "Nep Finance", logo: "R", description: "Community-driven DEX", url: "https://app.nep.finance/swap" }
+            { name: "Ambient", logo: "dex/ambient.jpg", description: "Leading Swell DEX", url: "https://ambient.finance/trade" },
+            { name: "Bubbly", logo: "dex/bubbly.jpg", description: "Community-driven DEX", url: "https://app.bubbly.finance/" },
+            { name: "Nep Finance", logo: "dex/neptunefi.jpg", description: "Community-driven DEX", url: "https://app.nep.finance/swap" }
         ],
         lending: [
-            { name: "Euler", logo: "I", description: "Algorithmic liquidity market", url: "https://app.euler.finance/?chainId=1" },
-            { name: "Ion Protocol", logo: "I", description: "Liquidity Protocol", url: "https://www.app.ionprotocol.io/"}
+            { name: "Euler", logo: "dex/euler.png", description: "Algorithmic liquidity market", url: "https://app.euler.finance/?chainId=1" },
+            { name: "Ion Protocol", logo: "dex/ion.jpg", description: "Liquidity Protocol", url: "https://www.app.ionprotocol.io/"}
         ],
         nft: [
             { name: "Element", logo: "dex/element.jpg", description: "Multi-chain NFT platform", url: "https://element.market" },
         ],
         bridge: [
             { name: "Superbridge", logo: "dex/superbridge.jpg", description: "Cross-Chain Bridge", url: "https://superbridge.swellnetwork.io/"},
-            { name: "Gas Zip", logo: "gz", description: "Cross-Chain Refuel", url: "https://gas.zip/"}
+            { name: "Gas Zip", logo: "dex/gaszip.jpg", description: "Cross-Chain Refuel", url: "https://gas.zip/"}
         ]
     },
     cyber: {
         dex: [
-            { name: "Owlto", logo: "O", description: "Leading Cyber DEX", url: "https://owlto.finance/swap" },
+            { name: "Owlto", logo: "dex/owlto.jpg", description: "Leading Cyber DEX", url: "https://owlto.finance/swap" },
             { name: "Izumi", logo: "dex/izumi.jpg", description: "Community-driven DEX", url: "https://izumi.finance/trade/swap" }
         ],
         lending: [
-            { name: "Euler", logo: "E", description: "Algorithmic liquidity market", url: "https://app.euler.finance/?chainId=1" }
+            { name: "Euler", logo: "dex/euler.png", description: "Algorithmic liquidity market", url: "https://app.euler.finance/?chainId=1" }
         ],
         nft: [
             { name: "Element", logo: "dex/element.jpg", description: "Multi-chain NFT platform", url: "https://element.market/cyber" },
         ],
         bridge: [
-            { name: "Official", logo: "off", description: "Official Bridge", url: "https://cyber.co/bridge"},
+            { name: "Official", logo: "dex/cyber.jpg", description: "Official Bridge", url: "https://cyber.co/bridge"},
             { name: "Relay", logo: "dex/relay.jpg", description: "Cross-Chain Bridge", url: "https://relay.link/bridge/"}
         ]
     },
@@ -249,7 +249,7 @@ const dapps = {
             { name: "Element", logo: "dex/element.jpg", description: "Multi-chain NFT platform", url: "https://element.market/bob" }
         ],
         bridge: [
-            { name: "Official", logo: "Bob", description: "Official Bridge", url: "https://app.gobob.xyz/en/bridge"},
+            { name: "Official", logo: "dex/bob.jpg", description: "Official Bridge", url: "https://app.gobob.xyz/en/bridge"},
             { name: "Relay", logo: "dex/relay.jpg", description: "Cross-Chain Bridge", url: "https://relay.link/"}
         ]
     },
@@ -257,19 +257,19 @@ const dapps = {
         dex: [
             { name: "Balancer", logo: "dex/balancer.png", description: "Leading Frax DEX", url: "https://balancer.fi/" },
             { name: "Curve Finance", logo: "dex/curve.jpg", description: "Community-driven DEX", url: "https://curve.fi/" },
-            { name: "Ra Exchange", logo: "RE", description: "Leading Dex", url: "https://www.ra.exchange/"},
-            { name: "Wombat Exchange", logo: "WE", description: "Community Dex", url: "https://www.wombat.exchange/"}
+            { name: "Ra Exchange", logo: "dex/raex.jpg", description: "Leading Dex", url: "https://www.ra.exchange/"},
+            { name: "Wombat Exchange", logo: "dex/wombatex.jpg", description: "Community Dex", url: "https://www.wombat.exchange/"}
         ],
         lending: [
             { name: "Ionic", logo: "dex/ionic.jpg", description: "Algorithmic liquidity market", url: "https://app.ionic.money/" },
-            { name: "Gravity Protocol", logo: "GP", description: "Liquidity protocol", url: "https://app.gravitaprotocol.com/" }
+            { name: "Gravity Protocol", logo: "dex/gravitaprotocol.jpg", description: "Liquidity protocol", url: "https://app.gravitaprotocol.com/" }
         ],
         nft: [
-            { name: "Nfts2Me", logo: "N2M", description: "multichain user-friendly", url: "https://nfts2me.com/" }
+            { name: "Nfts2Me", logo: "dex/nfts2me.png", description: "multichain user-friendly", url: "https://nfts2me.com/" }
         ],
         bridge: [
-            { name: "Official", logo: "Frax", description: "Official Bridge", url: "https://mainnet.frax.com/tools/bridge/deposit"},
-            { name: "Gas Zip", logo: "GZ", description: "Cross-Chain Bridge", url: "https://www.gas.zip/"}
+            { name: "Official", logo: "dex/frax.jpg", description: "Official Bridge", url: "https://mainnet.frax.com/tools/bridge/deposit"},
+            { name: "Gas Zip", logo: "dex/gaszip.jpg", description: "Cross-Chain Bridge", url: "https://www.gas.zip/"}
         ]
     },
     worldchain: {
@@ -280,19 +280,19 @@ const dapps = {
             { name: "Ionic", logo: "dex/ionic.jpg", description: "Algorithmic liquidity market", url: "https://app.ionic.money/" }
         ],
         nft: [
-            { name: "Nfts2Me", logo: "N2M", description: "multichain user-friendly", url: "https://nfts2me.com/" }
+            { name: "Nfts2Me", logo: "dex/nfts2me.jpg", description: "multichain user-friendly", url: "https://nfts2me.com/" }
 
         ],
         bridge: [
             { name: "SuperBridge", logo: "dex/superbridge.jpg", description: "Cross-Chainn Bridge", url: "https://superbridge.app/"},
-            { name: "Across", logo: "A", description: "Cross-Chain Bridge", url: "https://app.across.to/bridge"}
+            { name: "Across", logo: "dex/across.jpg", description: "Cross-Chain Bridge", url: "https://app.across.to/bridge"}
         ]
     },
     unichain: {
         dex: [
             { name: "Uniswap", logo: "dex/uniswap.jpg", description: "Leading Worldchain DEX", url: "https://app.uniswap.org/" },
             { name: "Jumper", logo: "dex/jumper.jpg", description: "Cross-Chain Swap and Bridge", url: "https://jumper.exchange/"},
-            { name: "OpenOcean", logo: "OO", description: "DEX aggregator", url: "https://app.openocean.finance/swap/uni/ETH/USDC"}
+            { name: "OpenOcean", logo: "dex/openocean.jpg", description: "DEX aggregator", url: "https://app.openocean.finance/swap/uni/ETH/USDC"}
         ],
         lending: [
             { name: "Venus", logo: "dex/venus.png", description: "liquidity market", url: "https://app.venus.io/" },
@@ -303,30 +303,30 @@ const dapps = {
 
         ],
         bridge: [
-            { name: "Official Bridge", logo: "Off", description: "Official Bridge", url: "https://app.uniswap.org/swap"},
+            { name: "Official Bridge", logo: "dex/unichain.jpg", description: "Official Bridge", url: "https://app.uniswap.org/swap"},
             { name: "SuperBridge", logo: "dex/superbridge.jpg", description: "Cross-Chainn Bridge", url: "https://superbridge.app/unichain"},
             { name: "Relay", logo: "dex/relay.jpg", description: "Cross-Chain Bridge", url: "https://relay.link/bridge/unichain"},
-            { name: "Mach Exchange", logo: "ME", description: "Cross-Chain Bridge", url: "https://app.mach.exchange/"},
-            { name: "Synapse Protocol", logo: "SP", description: "Cross-Chain Bridge", url: "https://synapseprotocol.com/?toChainId=130"},
-            { name: "Bungee Exchange", logo: "BE", description: "Liquidity Marketplace", url: "https://www.bungee.exchange/"},
+            { name: "Mach Exchange", logo: "dex/machex.jpg", description: "Cross-Chain Bridge", url: "https://app.mach.exchange/"},
+            { name: "Synapse Protocol", logo: "dex/synapse.jpg", description: "Cross-Chain Bridge", url: "https://synapseprotocol.com/?toChainId=130"},
+            { name: "Bungee Exchange", logo: "dex/bungee.jpg", description: "Liquidity Marketplace", url: "https://www.bungee.exchange/"},
             { name: "Symbiosis", logo: "dex/symbiosis.jpg", description: "Cross-Chain Bridge", url: "https://app.symbiosis.finance/"}
         ]
     },
     monad: {
         dex: [
-            { name: "Owlto", logo: "O", description: "Deploy Contract", url: "https://owlto.finance/deploy/?chain=MonadTestnet" },
-            { name: "Izumi", logo: "I", description: "Community-driven DEX", url: "https://alpha.izumi.finance/trade/swap" },
+            { name: "Owlto", logo: "dex/owlto.jpg", description: "Deploy Contract", url: "https://owlto.finance/deploy/?chain=MonadTestnet" },
+            { name: "Izumi", logo: "dex/izumi.jpg", description: "Community-driven DEX", url: "https://alpha.izumi.finance/trade/swap" },
             { name: "Nitro Finance", logo: "NF", description: "Leading Monad DEX", url: "https://testapp.nitrofinance.xyz/trade" },
-            { name: "Bebop", logo: "B", description: "Leading Monaad DEX", url: "https://bebop.xyz/trade?network=monad" },
+            { name: "Bebop", logo: "dex/bebop.jpg", description: "Leading Monaad DEX", url: "https://bebop.xyz/trade?network=monad" },
             { name: "Hashflow", logo: "HF", description: "Leading Inkchain DEX", url: "https://app.hashflow.com/?b=10143-USDC&q=10143-USDT" },
             { name: "Castora", logo: "C", description: "Dex", url: "https://castora.xyz/pools" },
             { name: "Clober", logo: "Crr", description: "Dex", url: "https://alpha.clober.io/trade?chain=10143" },
             { name: "Crystal", logo: "C", description: "Dex", url: "https://app.crystal.exchange/swap" },
             { name: "Fukunad", logo: "F", description: "Raffle", url: "https://testnet.fukunad.xyz/raffle" },
             { name: "Nextmate", logo: "N", description: "Voting", url: "https://nextmate.ai/predictionMarket?chainType=monad_testnet" },
-            { name: "PancakeSwap", logo: "P", description: "Dex", url: "https://pancakeswap.finance/swap" },
+            { name: "PancakeSwap", logo: "dex/pancake.jpg", description: "Dex", url: "https://pancakeswap.finance/swap" },
             { name: "PlayGround", logo: "P", description: "Dex", url: "https://playground.easy-node.xyz/" },
-            { name: "Ambient Finance", logo: "AF", description: "Dex", url: "https://monad.ambient.finance" },
+            { name: "Ambient Finance", logo: "dex/ambient.jpg", description: "Dex", url: "https://monad.ambient.finance" },
             { name: "Monorail", logo: "M", description: "Dex", url: "https://testnet-preview.monorail.xyz/" },
             { name: "Azar", logo: "A", description: "Dex", url: "https://app-monad-testnet.azaar.com/swap" },
             { name: "Curvance", logo: "C", description: "Dex", url: "https://monad.curvance.com/" },
@@ -340,7 +340,7 @@ const dapps = {
             { name: "Dirol Network", logo: "DN", description: "Dex", url: "https://dex.dirol.network/swap" },
             { name: "Octo Exchange", logo: "OE", description: "Dex", url: "https://octo.exchange/swap" },
             { name: "Madness Finance", logo: "MF", description: "Dex", url: "https://madness.finance/swap" },
-            { name: "Rubic Exchange", logo: "RE", description: "Dex", url: "https://testnet.rubic.exchange/" },
+            { name: "Rubic Exchange", logo: "dex/rubic.jpg", description: "Dex", url: "https://testnet.rubic.exchange/" },
             { name: "Bubble Finance", logo: "BF", description: "Dex", url: "https://app.bubblefi.xyz/" },
             { name: "Kuru Trade", logo: "KT", description: "Dex", url: "https://www.kuru.io/trade/" },
             { name: "Dusted", logo: "D", description: "Gaming", url: "https://www.dusted.app/rewards" },
@@ -372,14 +372,14 @@ const dapps = {
             { name: "Talentum", logo: "T", description: "Staking", url: "https://monad.talentum.id/projects?page=1"}
         ],
         nft: [
-            { name: "Element", logo: "E", description: "Multi-chain NFT platform", url: "https://element.market/cyber" },
+            { name: "Element", logo: "dex/element.jpg", description: "Multi-chain NFT platform", url: "https://element.market/cyber" },
             { name: "Nezro", logo: "N", description: "Mint Nft", url: "https://nerzo.xyz/senera" },
-            { name: "Magic Eden", logo: "ME", description: "Mint Nft", url: "https://magiceden.io/mint-terminal/monad-testnet" },
-            { name: "Nfts2me", logo: "NM", description: "Mint NFT", url: "https://bright-cintos-gaming.testnet.nfts2.me/"},
+            { name: "Magic Eden", logo: "dex/magiceden.jpg", description: "Mint Nft", url: "https://magiceden.io/mint-terminal/monad-testnet" },
+            { name: "Nfts2me", logo: "dex/nfts2me.png", description: "Mint NFT", url: "https://bright-cintos-gaming.testnet.nfts2.me/"},
             { name: "Poply", logo: "PP", description: "Mint NFT", url: "https://poply.xyz/launchpad/0xd97bce4518b886a36e345764333d77b5faf6fe2c"},
             { name: "Monadverse", logo: "MV", description: "Mint NFT", url: "https://monadverse.land/mint"},
             { name: "Morkie", logo: "M", description: "Complete social and Mint", url: "https://morkie.xyz/monarch"},
-            { name: "Impossible Finance", logo: "IF", description: "Complete social and Mint", url: "https://app.impossible.finance/launchpad/project/160?ref=blog.impossible.finance"},
+            { name: "Impossible Finance", logo: "dex/impossiblefi.jpg", description: "Complete social and Mint", url: "https://app.impossible.finance/launchpad/project/160?ref=blog.impossible.finance"},
             { name: "Free Mint", logo: "FM", description: "Mint NFT", url: "https://testnet.freee.xyz/collect/monadt:0xAb0bA06c13eC49c0842ef4716CeB1593f2C41779/token/5"}
         ]
     },
@@ -402,12 +402,12 @@ const dapps = {
             { name: "Coming Soon", logo: "CS", description: "Coming Soon", url: ""}
         ],
         nft: [
-            { name: "Nfts2me", logo: "N2M", description: "create and mint nft's", url: "https://nfts2me.com/app/rise-testnet/" },
+            { name: "Nfts2me", logo: "dex/nfts2me.jpg", description: "create and mint nft's", url: "https://nfts2me.com/app/rise-testnet/" },
             { name: "Relic", logo: "R", description: "Nfts Marketplace", url: "https://www.therelic.art/"}
 
         ],
         bridge: [
-            { name: "Gas zip", logo: "GZ", description: "Faucet and bridge", url: "https://www.gas.zip/faucet/rise"}
+            { name: "Gas zip", logo: "dex/gaszip.jpg", description: "Faucet and bridge", url: "https://www.gas.zip/faucet/rise"}
         ]
     }
 };
