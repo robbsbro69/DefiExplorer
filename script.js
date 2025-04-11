@@ -136,21 +136,16 @@ const dapps = {
     },
     manta: {
         dex: [
-            { name: "GullSwap", logo: "G", description: "Leading Manta DEX", url: "https://app.gullnetwork.com/swap" },
-            { name: "Izumi", logo: "I", description: "Community-driven DEX", url: "https://izumi.finance/trade/swap" },
-            { name: "Oku Trade", logo: "Oku", description: "Community-driven DEX", url: "https://oku.trade/?inputChain=manta" },
-            { name: "Rubic", logo: "I", description: "Bridge", url: "https://app.rubic.exchange/" },
+            { name: "GullSwap", logo: "dex/gullswap.jpg", description: "Leading Manta DEX", url: "https://app.gullnetwork.com/swap" },
+            { name: "Izumi", logo: "dex/izumi.jpg", description: "Community-driven DEX", url: "https://izumi.finance/trade/swap" },
+            { name: "Oku Trade", logo: "dex/okutrade.jpg", description: "Community-driven DEX", url: "https://oku.trade/?inputChain=manta" },
             { name: "Pixelswap", logo: "I", description: "Community-driven DEX", url: "https://app.pixelswap.xyz/#/swap" },
             { name: "DoDoEx", logo: "I", description: "Community-driven DEX", url: "https://app.dodoex.io/" },
             { name: "DapDap", logo: "I", description: "Community-driven DEX", url: "https://app.dapdap.net/super-swap" },
-            { name: "Layerswap", logo: "I", description: "Bridge", url: "https://layerswap.io/" },
             { name: "Aperture", logo: "I", description: "Community-driven DEX", url: "https://app.aperture.finance/" },
             { name: "Cetoswap", logo: "I", description: "Community-driven DEX", url: "https://cetoswap.com/#/" },
             { name: "Impossible Finance", logo: "I", description: "Community-driven DEX", url: "https://impossible.finance/" },
-            { name: "Firefly Dex", logo: "I", description: "Community-driven DEX", url: "https://fireflydex.io/#/swap" },
-            { name: "Magpie", logo: "I", description: "Bridge and Dex", url: "https://app.magpiefi.xyz/swap" },
-            { name: "Symbiosis", logo: "Symb", description: "Bridge", url: "https://app.symbiosis.finance/liquidity-v2/pools" }
-            
+            { name: "Firefly Dex", logo: "I", description: "Community-driven DEX", url: "https://fireflydex.io/#/swap" }            
         ],
         lending: [
             { name: "Shoebill", logo: "Sb", description: "Liquidity market", url: "https://manta-manta.shoebill.finance/#/" },
@@ -163,6 +158,12 @@ const dapps = {
         ],
         nft: [
             { name: "Element", logo: "E", description: "Multi-chain NFT platform", url: "https://element.market/manta-pacific" },
+        ],
+        bridge: [
+            { name: "Rubic", logo: "I", description: "Bridge", url: "https://app.rubic.exchange/" },
+            { name: "Layerswap", logo: "I", description: "Bridge", url: "https://layerswap.io/" },
+            { name: "Magpie", logo: "I", description: "Bridge and Dex", url: "https://app.magpiefi.xyz/swap" },
+            { name: "Magpie", logo: "I", description: "Bridge and Dex", url: "https://app.magpiefi.xyz/swap" }
         ]
     },
     ink: {
