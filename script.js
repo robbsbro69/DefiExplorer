@@ -349,7 +349,8 @@ const dapps = {
             { name: "Kuru Trade", logo: "KT", description: "Dex", url: "https://www.kuru.io/trade/" },
             { name: "Dusted", logo: "D", description: "Gaming", url: "https://www.dusted.app/rewards" },
             { name: "Atlantis Dex", logo: "AD", description: "Dex", url: "https://app.atlantisdex.xyz/swap/v4/" },
-            { name: "ApeBond", logo: "AB", description: "Dex", url: "https://www.ape.bond/bonds" }
+            { name: "ApeBond", logo: "AB", description: "Dex", url: "https://www.ape.bond/bonds" },
+            { name: "Encifher", logo:"en", description: "Dex", url: "https://monad.encifher.io/"}
         ],
         lending: [
             { name: "Kinza", logo: "K", description: "Liquidity market", url: "https://monad-test.kinza.finance/#/details/MON" },
