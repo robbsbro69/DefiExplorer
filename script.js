@@ -403,7 +403,8 @@ function populateDailyTasks() {
             { name: "Magic Netwon", logo: "MN", description: "Daily Roll Dice", url: "https://magicnewton.com/portal?referral=xe1v65se5r2ebf17"},
             { name: "Vendetta", logo: "V", description: "Daily Check-In", url: "http://vendettagame.xyz/quest?refercode=BQIdhqJrf2NA"},
             { name: "OnchainGM", logo: "OG", description: "Daily GM", url: "https://onchaingm.com/"},
-            { name: "TheVapeLabs", logo: "TVL", description: "Daily Check-In", url: "https://app.thevapelabs.io/app"}
+            { name: "TheVapeLabs", logo: "TVL", description: "Daily Check-In", url: "https://app.thevapelabs.io/app"},
+            { name: "0G Puzzle Mania", logo: "OPM", description: "Daily Check-In", url: "https://puzzlemania.0g.ai/?referral=eDKjVDKysyB5"}
         ],
         swaps: [
             { name: "Mach Exchange", logo: "ME", description: "Ref Code: HBWDK", url: "https://app.mach.exchange/" },
