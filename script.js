@@ -419,28 +419,28 @@ function populateDailyTasks() {
         checkins: [
             { name: "Layer3", logo: "tasks/layer3.jpg", description: "Daily quests", url: "https://app.layer3.xyz/quests" },
             { name: "Lootex", logo: "tasks/lootex.jpg", description: "Complete tasks", url: "https://lootex.io/invite/LM7C7N" },
-            { name: "Succinct", logo: "S", description: "Generate proofs, earn stars", url: "https://testnet.succinct.xyz/dashboard"},
-            { name: "Superboard", logo: "SB", description: "Quests and Fun", url: "https://superboard.xyz/quests"},
-            { name: "Alva", logo: "A", description: "AI and Fun", url: "https://alva.xyz/Referral/?r=Y5JE78"},
-            { name: "Owlto Finance", logo: "Owl", description: "Daily Check-in", url: "https://owlto.finance/?ref=0xe88d2D7e13a71eA68A438b9FEdD6363bE48A0373"},
-            { name: "Orbiter Finance", logo: "Orb", description: "Daily Check-in", url: "https://orbiter.finance/?channel=0xe88d2d7e13a71ea68a438b9fedd6363be48a0373"},
-            { name: "Magic Netwon", logo: "MN", description: "Daily Roll Dice", url: "https://magicnewton.com/portal?referral=xe1v65se5r2ebf17"},
-            { name: "Vendetta", logo: "V", description: "Daily Check-In", url: "http://vendettagame.xyz/quest?refercode=BQIdhqJrf2NA"},
-            { name: "OnchainGM", logo: "OG", description: "Daily GM", url: "https://onchaingm.com/"},
-            { name: "TheVapeLabs", logo: "TVL", description: "Daily Check-In", url: "https://app.thevapelabs.io/app"},
-            { name: "0G Puzzle Mania", logo: "OPM", description: "Daily Check-In", url: "https://puzzlemania.0g.ai/?referral=eDKjVDKysyB5"}
+            { name: "Succinct", logo: "tasks/succinct.jpg", description: "Generate proofs, earn stars", url: "https://testnet.succinct.xyz/dashboard"},
+            { name: "Superboard", logo: "tasks/superboard.jpg", description: "Quests and Fun", url: "https://superboard.xyz/quests"},
+            { name: "Alva", logo: "tasks/alva.jpg", description: "AI and Fun", url: "https://alva.xyz/Referral/?r=Y5JE78"},
+            { name: "Owlto Finance", logo: "tasks/owlto.jpg", description: "Daily Check-in", url: "https://owlto.finance/?ref=0xe88d2D7e13a71eA68A438b9FEdD6363bE48A0373"},
+            { name: "Orbiter Finance", logo: "tasks/orbiter.jpg", description: "Daily Check-in", url: "https://orbiter.finance/?channel=0xe88d2d7e13a71ea68a438b9fedd6363be48a0373"},
+            { name: "Magic Netwon", logo: "tasks/magicnewton.jpg", description: "Daily Roll Dice", url: "https://magicnewton.com/portal?referral=xe1v65se5r2ebf17"},
+            { name: "Vendetta", logo: "tasks/vendetta.jpg", description: "Daily Check-In", url: "http://vendettagame.xyz/quest?refercode=BQIdhqJrf2NA"},
+            { name: "OnchainGM", logo: "tasks/onchaingm.jpg", description: "Daily GM", url: "https://onchaingm.com/"},
+            { name: "TheVapeLabs", logo: "tasks/thevapelabs.jpg", description: "Daily Check-In", url: "https://app.thevapelabs.io/app"},
+            { name: "0G Puzzle Mania", logo: "tasks/Oglabs.jpg", description: "Daily Check-In", url: "https://puzzlemania.0g.ai/?referral=eDKjVDKysyB5"}
         ],
         swaps: [
-            { name: "Mach Exchange", logo: "ME", description: "Ref Code: HBWDK", url: "https://app.mach.exchange/" },
-            { name: "Concerno", logo: "P", description: "Daily trade", url: "https://app.concero.io/rewards" },
-            { name: "Infinex", logo: "In", description: "Daily swap", url: "https://app.infinex.xyz/earn"}
+            { name: "Mach Exchange", logo: "tasks/machex.jpg", description: "Ref Code: HBWDK", url: "https://app.mach.exchange/" },
+            { name: "Concerno", logo: "tasks/concerno.jpg", description: "Daily trade", url: "https://app.concero.io/rewards" },
+            { name: "Infinex", logo: "tasks/infinex.jpg", description: "Daily swap", url: "https://app.infinex.xyz/earn"}
         ],
         quests: [
-            { name: "Linera Galxe", logo: "LG", description: "Complete quests", url: "https://app.galxe.com/quest/Linera/GCbMUtpawv" },
-            { name: "Dmail", logo: "D", description: "Daily Mail", url: "https://mail.dmail.ai/login?icode=118666"}
+            { name: "Linera Galxe", logo: "tasks/linera.jpg", description: "Complete quests", url: "https://app.galxe.com/quest/Linera/GCbMUtpawv" },
+            { name: "Dmail", logo: "tasks/dmail.jpg", description: "Daily Mail", url: "https://mail.dmail.ai/login?icode=118666"}
         ],
         faucets: [
-            { name: "Sepolia Faucet", logo: "Sep", description: "Claim", url: "https://sepoliafaucet.com/"},
+            { name: "Sepolia Faucet", logo: "tasks/eth.jpg", description: "Claim", url: "https://sepoliafaucet.com/"},
             { name: "Sahara AI", logo: "SAH", description: "Faucet", url: "https://faucet.saharalabs.ai/"},
             { name: "OG Labs", logo: "OG", description: "Faucet", url: "https://hub.0g.ai/faucet"},
             { name: "GTE Labs", logo: "GTE", description: "Faucet", url: "https://testnet.gte.xyz/"},
