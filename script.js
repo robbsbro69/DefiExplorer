@@ -441,10 +441,10 @@ function populateDailyTasks() {
         ],
         faucets: [
             { name: "Sepolia Faucet", logo: "tasks/eth.jpg", description: "Claim", url: "https://sepoliafaucet.com/"},
-            { name: "Sahara AI", logo: "SAH", description: "Faucet", url: "https://faucet.saharalabs.ai/"},
-            { name: "OG Labs", logo: "OG", description: "Faucet", url: "https://hub.0g.ai/faucet"},
-            { name: "GTE Labs", logo: "GTE", description: "Faucet", url: "https://testnet.gte.xyz/"},
-            { name: "Megaeth", logo: "ME", description: "Faucet", url: "https://testnet.megaeth.com/#3"}
+            { name: "Sahara AI", logo: "tasks/sahara.jpg", description: "Faucet", url: "https://faucet.saharalabs.ai/"},
+            { name: "OG Labs", logo: "tasks/Oglabs.jpg", description: "Faucet", url: "https://hub.0g.ai/faucet"},
+            { name: "GTE Labs", logo: "tasks/gte.jpg", description: "Faucet", url: "https://testnet.gte.xyz/"},
+            { name: "Megaeth", logo: "tasks/megaeth.jpg", description: "Faucet", url: "https://testnet.megaeth.com/#3"}
         ]
     };
     
