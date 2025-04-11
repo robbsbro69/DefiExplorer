@@ -148,37 +148,37 @@ const dapps = {
             { name: "Firefly Dex", logo: "dex/firefly.jpg", description: "Community-driven DEX", url: "https://fireflydex.io/#/swap" }            
         ],
         lending: [
-            { name: "Shoebill", logo: "Sb", description: "Liquidity market", url: "https://manta-manta.shoebill.finance/#/" },
-            { name: "Layerbank", logo: "Lb", description: "Liquidity protocol", url: "https://app.layerbank.finance/manta-pacific/bank" },
-            { name: "Zerolend", logo: "ZL", description: "Liquidity protocol", url: "https://app.zerolend.xyz/markets/?marketName=proto_manta_v3" },
-            { name: "Omni", logo: "Oi", description: "Liquidity protocol", url: "https://omni.ls/" },
-            { name: "Accumulated Finance", logo: "AF", description: "Liquidity protocol", url: "https://accumulated.finance/stake/manta" },
-            { name: "MonRoe", logo: "I", description: "Lending", url: "https://app.monroeprotocol.com/vaults" }
+            { name: "Shoebill", logo: "dex/shoebill.png", description: "Liquidity market", url: "https://manta-manta.shoebill.finance/#/" },
+            { name: "Layerbank", logo: "dex/layerbank.jpg", description: "Liquidity protocol", url: "https://app.layerbank.finance/manta-pacific/bank" },
+            { name: "Zerolend", logo: "dex/zerolend.jpg", description: "Liquidity protocol", url: "https://app.zerolend.xyz/markets/?marketName=proto_manta_v3" },
+            { name: "Omni", logo: "dex/omni.png", description: "Liquidity protocol", url: "https://omni.ls/" },
+            { name: "Accumulated Finance", logo: "dex/accumulatedfi.jpg", description: "Liquidity protocol", url: "https://accumulated.finance/stake/manta" },
+            { name: "MonRoe", logo: "dex/monroe.png", description: "Lending", url: "https://app.monroeprotocol.com/vaults" }
         ],
         nft: [
-            { name: "Element", logo: "E", description: "Multi-chain NFT platform", url: "https://element.market/manta-pacific" },
+            { name: "Element", logo: "dex/element.jpg", description: "Multi-chain NFT platform", url: "https://element.market/manta-pacific" },
         ],
         bridge: [
-            { name: "Rubic", logo: "I", description: "Bridge", url: "https://app.rubic.exchange/" },
-            { name: "Layerswap", logo: "I", description: "Bridge", url: "https://layerswap.io/" },
-            { name: "Magpie", logo: "I", description: "Bridge and Dex", url: "https://app.magpiefi.xyz/swap" },
-            { name: "Magpie", logo: "I", description: "Bridge and Dex", url: "https://app.magpiefi.xyz/swap" }
+            { name: "Rubic", logo: "dex/rubic.jpg", description: "Bridge", url: "https://app.rubic.exchange/" },
+            { name: "Layerswap", logo: "dex/layerswap.jpg", description: "Bridge", url: "https://layerswap.io/" },
+            { name: "Magpie", logo: "dex/magpie.jpg", description: "Bridge and Dex", url: "https://app.magpiefi.xyz/swap" },
+            { name: "Symbiosis", logo: "dex/symbiosis.jpg", description: "Bridge and Dex", url: "https://app.symbiosis.finance/swap" }
         ]
     },
     ink: {
         dex: [
-            { name: "Velodrome", logo: "V", description: "Leading Inkchain DEX", url: "https://velodrome.finance/" },
-            { name: "Reservoir", logo: "R", description: "Community-driven DEX", url: "https://swap.reservoir.tools/swap#/swap" }
+            { name: "Velodrome", logo: "dex/velodrome.jpg", description: "Leading Inkchain DEX", url: "https://velodrome.finance/" },
+            { name: "Reservoir", logo: "dex/reservoir.png", description: "Community-driven DEX", url: "https://swap.reservoir.tools/swap#/swap" }
         ],
         lending: [
-            { name: "Ionic", logo: "I", description: "Algorithmic liquidity market", url: "https://app.ionic.money/market?chain=57073" }
+            { name: "Ionic", logo: "dex/ionic.jpg", description: "Algorithmic liquidity market", url: "https://app.ionic.money/market?chain=57073" }
         ],
         nft: [
-            { name: "Element", logo: "E", description: "Multi-chain NFT platform", url: "https://element.market" },
+            { name: "Element", logo: "dex/element.jpg", description: "Multi-chain NFT platform", url: "https://element.market" },
         ],
         bridge: [
-            { name: "Superbridge", logo: "sup", description: "Cross-Chain Bridge", url: "https://www.brid.gg/ink?amount=&originChainId=1&token=ETH"},
-            { name: "Relay", logo: "rel", description: "Cross-Chain Bridge", url: "https://relay.link/bridge/ink?includeChainIds=57073"}
+            { name: "Superbridge", logo: "dex/superbridge.jpg", description: "Cross-Chain Bridge", url: "https://www.brid.gg/ink?amount=&originChainId=1&token=ETH"},
+            { name: "Relay", logo: "dex/relay.jpg", description: "Cross-Chain Bridge", url: "https://relay.link/bridge/ink?includeChainIds=57073"}
         ]
     },
     superseed: {
