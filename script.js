@@ -124,15 +124,14 @@ const dapps = {
     avalanche: {
         dex: [
             { name: "LFJ", logo: "dex/lfj.jpg", description: "Leading Avalanche DEX", url: "https://lfj.gg/" },
-            { name: "Pangolin", logo: "P", description: "Community-driven DEX", url: "https://app.pangolin.exchange" }
+            { name: "Pangolin", logo: "dex/pangolin.jpg", description: "Community-driven DEX", url: "https://app.pangolin.exchange" }
         ],
         lending: [
-            { name: "Benqi", logo: "B", description: "Algorithmic liquidity market", url: "https://app.benqi.fi" },
-            { name: "Aave", logo: "A", description: "Liquidity protocol", url: "https://app.aave.com/?marketName=proto_avalanche" }
+            { name: "Benqi", logo: "dex/benqi.jpg", description: "Algorithmic liquidity market", url: "https://app.benqi.fi" },
+            { name: "Aave", logo: "dex/aave.png", description: "Liquidity protocol", url: "https://app.aave.com/?marketName=proto_avalanche" }
         ],
         nft: [
-            { name: "NFTrade", logo: "N", description: "Multi-chain NFT platform", url: "https://nftrade.com" },
-            { name: "Kalao", logo: "K", description: "NFT marketplace and metaverse", url: "https://marketplace.kalao.io" }
+            { name: "Salvor", logo: "dex/salvor.jpg", description: "NFT Marketplace", url: "https://salvor.io/"}
         ]
     },
     manta: {
