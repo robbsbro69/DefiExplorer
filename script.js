@@ -373,14 +373,14 @@ const dapps = {
         ],
         nft: [
             { name: "Element",              logo: "dex/element.jpg",        description: "Multi-chain NFT platform",    url: "https://element.market/cyber" },
-            { name: "Nezro",                logo: "N",                      description: "Mint Nft",                    url: "https://nerzo.xyz/senera" },
+            { name: "Nezro",                logo: "dex/nezro.jpg",                      description: "Mint Nft",                    url: "https://nerzo.xyz/senera" },
             { name: "Magic Eden",           logo: "dex/magiceden.jpg",      description: "Mint Nft",                    url: "https://magiceden.io/mint-terminal/monad-testnet" },
             { name: "Nfts2me",              logo: "dex/nfts2me.png",        description: "Mint NFT",                    url: "https://bright-cintos-gaming.testnet.nfts2.me/"},
-            { name: "Poply",                logo: "PP",                     description: "Mint NFT",                    url: "https://poply.xyz/launchpad/0xd97bce4518b886a36e345764333d77b5faf6fe2c"},
-            { name: "Monadverse",           logo: "MV",                     description: "Mint NFT",                    url: "https://monadverse.land/mint"},
-            { name: "Morkie",               logo: "M",                      description: "Complete social and Mint",    url: "https://morkie.xyz/monarch"},
+            { name: "Poply",                logo: "dex/poply.jpg",                     description: "Mint NFT",                    url: "https://poply.xyz/launchpad/0xd97bce4518b886a36e345764333d77b5faf6fe2c"},
+            { name: "Monadverse",           logo: "dex/monadverse.jpg",                     description: "Mint NFT",                    url: "https://monadverse.land/mint"},
+            { name: "Morkie",               logo: "dex/morkie.jpg",                      description: "Complete social and Mint",    url: "https://morkie.xyz/monarch"},
             { name: "Impossible Finance",   logo: "dex/impossiblefi.jpg",   description: "Complete social and Mint",    url: "https://app.impossible.finance/launchpad/project/160?ref=blog.impossible.finance"},
-            { name: "Free Mint",            logo: "FM",                     description: "Mint NFT",                    url: "https://testnet.freee.xyz/collect/monadt:0xAb0bA06c13eC49c0842ef4716CeB1593f2C41779/token/5"}
+            { name: "Free Mint",            logo: "dex/freem.jpg",                     description: "Mint NFT",                    url: "https://testnet.freee.xyz/collect/monadt:0xAb0bA06c13eC49c0842ef4716CeB1593f2C41779/token/5"}
         ]
     },
     risechain: {
