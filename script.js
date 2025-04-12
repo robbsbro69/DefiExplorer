@@ -361,15 +361,15 @@ const dapps = {
             { name: "Hakifi",           logo: "dex/hakifi.png",                 description: "Dex" ,                            url: "https://hakifi.xyz/"}
         ],
         lending: [
-            { name: "Kinza",            logo: "K",                  description: "Liquidity market",                url: "https://monad-test.kinza.finance/#/details/MON" },
-            { name: "Apr",              logo: "A",                  description: "Staking",                         url: "https://stake.apr.io/" },
-            { name: "Kintsu",           logo: "Ki",                 description: "Staking",                         url: "https://kintsu.xyz/staking" },
-            { name: "Shmonad",          logo: "Sm",                 description: "Staking",                         url: "https://shmonad.xyz/" },
-            { name: "Nostra Finance",   logo: "NF",                 description: "Staking",                         url: "https://shmonad.xyz/" },
-            { name: "Timeswap",         logo: "TS",                 description: "Staking",                         url: "https://app.timeswap.io/markets" },
-            { name: "Magma Staking",    logo: "MS",                 description: "Staking",                         url: "https://www.magmastaking.xyz/" },
-            { name: "Summer Money",     logo: "SM",                 description: "Lending",                         url: "https://app.sumer.money/?chain=10143"},
-            { name: "Talentum",         logo: "T",                  description: "Staking",                         url: "https://monad.talentum.id/projects?page=1"}
+            { name: "Kinza",            logo: "dex/kinza.jpg",                  description: "Liquidity market",                url: "https://monad-test.kinza.finance/#/details/MON" },
+            { name: "Apr",              logo: "dex/apr.jpg",                  description: "Staking",                         url: "https://stake.apr.io/" },
+            { name: "Kintsu",           logo: "dex/kintsu.png",                 description: "Staking",                         url: "https://kintsu.xyz/staking" },
+            { name: "Shmonad",          logo: "dex/monad.jpg",                 description: "Staking",                         url: "https://shmonad.xyz/" },
+            { name: "Nostra Finance",   logo: "dex/nostra.jpg",                 description: "Staking",                         url: "https://monad.nostra.finance/lend-borrow" },
+            { name: "Timeswap",         logo: "dex/timeswap.jpg",                 description: "Staking",                         url: "https://app.timeswap.io/markets" },
+            { name: "Magma Staking",    logo: "dex/magma.jpg",                 description: "Staking",                         url: "https://www.magmastaking.xyz/" },
+            { name: "Summer Money",     logo: "dex/summermoney.jpg",                 description: "Lending",                         url: "https://app.sumer.money/?chain=10143"},
+            { name: "Talentum",         logo: "dex/talentum.jpg",                  description: "Staking",                         url: "https://monad.talentum.id/projects?page=1"}
         ],
         nft: [
             { name: "Element",              logo: "dex/element.jpg",        description: "Multi-chain NFT platform",    url: "https://element.market/cyber" },
