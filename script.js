@@ -500,10 +500,26 @@ function populateDailyTasks() {
             { name: "RockX",            logo: "tasks/rockx.jpg",            description: "Eth Sepolia",     url: "https://access.rockx.com/faucet-sepolia"},
             { name: "Tatum",            logo: "tasks/tatum.jpg",            description: "Eth Sepolia",     url: "https://tatum.io/faucets/sepolia"},
             { name: "PowFaucet",        logo: "tasks/eth.jpg",              description: "Eth Sepolia",     url: "https://sepolia-faucet.pk910.de/"},
+            { name: "Coin Faucet",      logo: "tasks/btc.jpeg",             description: "Btc Testnet",     url: "https://coinfaucet.eu/en/btc-testnet/"},
+            { name: "Crypto Pump",      logo: "tasks/btc.jpeg",             description: "Btc Testnet",     url: "https://cryptopump.info/send.php"},
+            { name: "Btc Faucet",       logo: "tasks/btc.jpeg",             description: "Btc Testnet",     url: "https://bitcoinfaucet.uo1.net/"},
+            { name: "Testnet Help",     logo: "tasks/btc.jpeg",             description: "Btc Testnet",     url: "https://testnet.help/en/btcfaucet/testnet"},
+            { name: "AltQuick",         logo: "tasks/altquick.jpg",         description: "Btc Testnet",     url: "https://altquick.com/faucet/"},
+            { name: "Tatum",            logo: "tasks/tatum.jpg",            description: "Btc Testnet",     url: "https://tatum.io/faucets/bitcoin"},
+            { name: "MetaWire",         logo: "tasks/metawire.jpg",         description: "Btc Testnet",     url: "https://faucet-btc-testnet.metawire.cloud/"},
+            { name: "BitTaps",          logo: "tasks/bitaps.png",           description: "Btc Testnet",     url: "https://tbtc.bitaps.com/"},
+            { name: "Rooch Network",    logo: "tasks/rooch.jpg",            description: "Btc Testnet",     url: "https://rooch.network/build/getting-started/get-test-btc"},
+            { name: "The Faucet",       logo: "tasks/thefaucet.jpg",        description: "Btc Testnet",     url: "https://www.thefaucet.org/"},
+            { name: "Signet Faucet",    logo: "tasks/btc.jpeg",             description: "Signet Btc",      url: "https://signetfaucet.com/"},
+            { name:"Dcorral",           logo: "tasks/btc.jpeg",             description: "Signet Btc",      url: "https://signet.dcorral.com/"},
             { name: "Sahara AI",        logo: "tasks/sahara.jpg",           description: "Faucet",          url: "https://faucet.saharalabs.ai/"},
             { name: "OG Labs",          logo: "tasks/Oglabs.jpg",           description: "Faucet",          url: "https://hub.0g.ai/faucet"},
             { name: "GTE Labs",         logo: "tasks/gte.jpg",              description: "Faucet",          url: "https://testnet.gte.xyz/"},
-            { name: "Megaeth",          logo: "tasks/megaeth.jpg",          description: "Faucet",          url: "https://testnet.megaeth.com/#3"}
+            { name: "Megaeth",          logo: "tasks/megaeth.jpg",          description: "Faucet",          url: "https://testnet.megaeth.com/#3"},
+            { name: "Superbridge",      logo: "tasks/superbridge.jpg",      description: "Bridge",          url: "https://testnets.superbridge.app/"},
+            { name: "Brid.gg",          logo: "tasks/bridgg.png",           description: "Bridge",          url: "brid.gg"},
+            { name: "Relay",            logo: "tasks/relay.jpg",            description: "Bridge",          url: "https://testnets.relay.link/bridge/sepolia"},
+            { name: "Orbiter Fi",       logo: "tasks/orbiter.jpg",          description: "Bridge",          url: "https://rinkeby.orbiter.finance/en"}
         ]
     };
     
