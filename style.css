@@ -333,6 +333,63 @@ body:not(.explorer-mode) .chain-selector {
     display: none;
 }
 
+.social-links {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid var(--border-color);
+}
+
+.social-links h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.social-btn i {
+    font-size: 18px;
+}
+
+.social-btn.twitter {
+    background-color: #1DA1F2;
+    border: 1px solid #1DA1F2;
+}
+
+.social-btn.discord {
+    background-color: #5865F2;
+    border: 1px solid #5865F2;
+}
+
+.social-btn.telegram {
+    background-color: #0088cc;
+    border: 1px solid #0088cc;
+}
+
+.social-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     header {
@@ -352,5 +409,14 @@ body:not(.explorer-mode) .chain-selector {
     
     .features-grid {
         grid-template-columns: 1fr;
+    }
+    .social-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .social-btn {
+        width: 100%;
+        justify-content: center;
     }
 }

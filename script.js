@@ -581,7 +581,7 @@ function populateDapps(chain) {
     }
 }
 
-// Modified createDappCard function with enhanced error handling
+
 function createDappCard(dapp) {
     const card = document.createElement('a');
     card.className = 'dapp-card';
@@ -597,7 +597,7 @@ function createDappCard(dapp) {
     logo.src = `logos/${dapp.logo}`;
     logo.alt = dapp.name;
     
-    // Fallback text if image fails to load
+    
     const fallbackText = document.createElement('div');
     fallbackText.className = 'logo-fallback';
     fallbackText.textContent = dapp.name.charAt(0);
@@ -622,7 +622,7 @@ function createDappCard(dapp) {
     card.appendChild(description);
     card.appendChild(visitBtn);
 
-    // Error handling for images
+    
     logo.onerror = () => {
         logo.style.display = 'none';
         fallbackText.style.display = 'flex';
