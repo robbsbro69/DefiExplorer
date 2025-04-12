@@ -456,7 +456,7 @@ function populateDailyTasks() {
             { name: "Thirdweb",         logo: "tasks/thirdweb.jpg",         description: "Holesky ETH",     url: "https://thirdweb.com/holesky"},
             { name: "Google Cloud",     logo: "tasks/googlecloud.jpg",      description: "Holesky ETH",     url: "https://cloud.google.com/application/web3/faucet/ethereum/holesky"},
             { name: "Tatum",            logo: "tasks/tatum.jpg",            description: "Holesky ETH",     url: "https://tatum.io/faucets/holesky"},
-            { name: "PowFaucet",        logo: "tasks/eth.jpg",              description:" Holesky ETH",     url: "https://holesky-faucet.pk910.de/"},
+            { name: "PowFaucet",        logo: "tasks/eth.jpg",              description: "Holesky ETH",     url: "https://holesky-faucet.pk910.de/"},
             { name: "ChainLink",        logo: "tasks/chainlink.jpg",        description: "Base Sepolia",    url: "https://faucets.chain.link/base-sepolia"},
             { name: "Quicknode",        logo: "tasks/quicknode.jpg",        description: "Base Sepolia",    url: "https://faucet.quicknode.com/base/sepolia"},
             { name: "Stakely",          logo: "tasks/stakely.jpg",          description: "Base Sepolia",    url: "https://stakely.io/faucet/base-eth"},
