@@ -447,7 +447,7 @@ function populateDailyTasks() {
             { name: "Quicknode",        logo: "tasks/quicknode.jpg",        description: "Holesky ETH",     url: "https://faucet.quicknode.com/ethereum/holesky"},
             { name: "Learnweb3",        logo: "tasks/learnweb3.jpg",        description: "Holesky ETH",     url: "https://learnweb3.io/faucets/holesky/"},
             { name: "Faucet Bot",       logo: "tasks/eth.jpg",              description: "Holesky ETH",     url: "https://t.me/faucet_trade_bot"},
-            { name: "Chainlink",        logo: "tasks/chainlink.jpg",        escription: "Holesky ETH",      url: "https://faucets.chain.link/"},
+            { name: "Chainlink",        logo: "tasks/chainlink.jpg",        description: "Holesky ETH",      url: "https://faucets.chain.link/"},
             { name: "BwareLabs",        logo: "tasks/bwarelabs.png",        description: "Holesky ETH",     url: "https://bwarelabs.com/faucets/ethereum-holesky"},
             { name: "Blast",            logo: "tasks/blast.jpg",            description: "Holesky ETH",     url: "https://blastapi.io/faucets/ethereum-holesky"},
             { name: "Alchemy",          logo: "tasks/alchemy/jpg",          description: "Holesky ETH",     url: "https://www.alchemy.com/faucets/ethereum-holesky"},
