@@ -1,20 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Set initial mode
+    
     document.body.classList.add('explorer-mode');
     
-    // Navigation between main sections
+    
     document.querySelectorAll('.nav-btn').forEach(btn => {
         btn.addEventListener('click', function() {
-            // Remove active class from all buttons and sections
+           
             document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
             document.querySelectorAll('.section').forEach(s => s.classList.remove('active-section'));
             
-            // Add active class to clicked button and corresponding section
+            
             this.classList.add('active');
             const sectionId = this.getAttribute('data-section');
             document.getElementById(sectionId).classList.add('active-section');
             
-            // Update body class for CSS styling
+            
             document.body.classList.remove('explorer-mode', 'tasks-mode', 'about-mode');
             if (sectionId === 'explorer') {
                 document.body.classList.add('explorer-mode');
@@ -28,21 +28,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Navigation between task categories
+    
     document.querySelectorAll('.task-category-btn').forEach(btn => {
         btn.addEventListener('click', function() {
-            // Remove active class from all buttons and task sections
+            
             document.querySelectorAll('.task-category-btn').forEach(b => b.classList.remove('active'));
             document.querySelectorAll('.task-section').forEach(s => s.classList.remove('active-task'));
             
-            // Add active class to clicked button and corresponding task section
+            
             this.classList.add('active');
             const taskId = this.getAttribute('data-task');
             document.getElementById(taskId).classList.add('active-task');
         });
     });
     
-    // Initialize chain selector
+    
     document.getElementById('chainSelector').addEventListener('change', function() {
         if (document.body.classList.contains('explorer-mode')) {
             populateDapps(this.value);
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     
-    // Initial load
+    
     populateDapps('ethereum');
     populateDailyTasks();
 });
