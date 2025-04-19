@@ -70,7 +70,7 @@ const dapps = {
         ],
         nft: [
             { name: "OpenSea",              logo: "dex/opensea.jpg",            description: "Largest NFT marketplace",         url: "https://opensea.io" },
-            { name: "Rarble",              logo: "dex/rarible.jpg",            description: "Creator-focused marketplace",     url: "https://rarible.com" },
+            { name: "Rarible",              logo: "dex/rarible.jpg",            description: "Creator-focused marketplace",     url: "https://rarible.com" },
             { name: "Foundation",           logo: "dex/foundation.jpg",         description: "Curated NFT platform",            url: "https://foundation.app" },
             { name: "LooksRare",            logo: "dex/looksrare.jpg",          description: "Community-first marketplace",     url: "https://looksrare.org" }
         ],
