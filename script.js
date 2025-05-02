@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const dapps = {
     ethereum: {
         dex: [
-            { name: "Uniqswap",              logo: "dex/uniswap.jpg",            description: "Leading AMM protocol",            url: "https://app.uniswap.org" },
+            { name: "Uniswsap",              logo: "dex/uniswap.jpg",            description: "Leading AMM protocol",            url: "https://app.uniswap.org" },
             { name: "SushiSwap",            logo: "dex/sushiswap.jpg",          description: "Multi-chain DEX",                 url: "https://app.sushi.com" },
             { name: "Curve",                logo: "dex/curve.jpg",              description: "Stablecoin-focused DEX",          url: "https://curve.fi" },
             { name: "Balancer",             logo: "dex/balancer.png",           description: "Programmable liquidity",          url: "https://app.balancer.fi" }
