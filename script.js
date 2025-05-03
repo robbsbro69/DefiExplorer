@@ -409,6 +409,22 @@ const dapps = {
         bridge: [
             { name: "Gas zip",              logo: "dex/gaszip.jpg",         description: "Faucet and bridge",           url: "https://www.gas.zip/faucet/rise"}
         ]
+    },
+    megaeth: {
+        dex: [
+            { name: "GTE",                  logo: "dex/gte.jpg",                         description: "Dex",                         url: "https://testnet.gte.xyz/" }
+
+        ],
+        lending: [
+            { name: "Coming Soon",          logo: "CS",                     description: "Coming Soon",                 url: ""}
+        ],
+        nft: [
+            { name: "Rarible",              logo: "dex/rarible.jpg",        description: "create and mint nft's",       url: "https://testnet.rarible.fun" },
+
+        ],
+        bridge: [
+            { name: "Gas zip",              logo: "dex/gaszip.jpg",         description: "Faucet and bridge",           url: "https://www.gas.zip/faucet/rise"}
+        ]
     }
 };
 
@@ -428,7 +444,8 @@ function populateDailyTasks() {
             { name: "Vendetta",             logo: "tasks/vendetta.jpg",     description: "Daily Check-In",              url: "http://vendettagame.xyz/quest?refercode=BQIdhqJrf2NA"},
             { name: "OnchainGM",            logo: "tasks/onchaingm.jpg",    description: "Daily GM",                    url: "https://onchaingm.com/"},
             { name: "TheVapeLabs",          logo: "tasks/thevapelabs.jpg",  description: "Daily Check-In",              url: "https://app.thevapelabs.io/app"},
-            { name: "0G Puzzle Mania",      logo: "tasks/Oglabs.jpg",       description: "Daily Check-In",              url: "https://puzzlemania.0g.ai/?referral=eDKjVDKysyB5"}
+            { name: "0G Puzzle Mania",      logo: "tasks/Oglabs.jpg",       description: "Daily Check-In",              url: "https://puzzlemania.0g.ai/?referral=eDKjVDKysyB5"},
+            { name: "Blockscout Merit",     logo: "tasks/eth.jpg",          description: "Daily Check-In",              url: "https://eth.blockscout.com?ref=5ERIFV"}
         ],
         swaps: [
             { name: "Mach Exchange",        logo: "tasks/machex.jpg",       description: "Ref Code: HBWDK",             url: "https://app.mach.exchange/" },
@@ -514,8 +531,8 @@ function populateDailyTasks() {
             { name:"Dcorral",           logo: "tasks/btc.jpeg",             description: "Signet Btc",      url: "https://signet.dcorral.com/"},
             { name: "Sahara AI",        logo: "tasks/sahara.jpg",           description: "Faucet",          url: "https://faucet.saharalabs.ai/"},
             { name: "OG Labs",          logo: "tasks/Oglabs.jpg",           description: "Faucet",          url: "https://hub.0g.ai/faucet"},
-            { name: "GTE Labs",         logo: "tasks/gte.jpg",              description: "Faucet",          url: "https://testnet.gte.xyz/"},
-            { name: "Megaeth",          logo: "tasks/megaeth.jpg",          description: "Faucet",          url: "https://testnet.megaeth.com/#3"},
+            { name: "GTE Labs",         logo: "tasks/gte.jpg",              description: "MegaETH Testnet", url: "https://testnet.gte.xyz/"},
+            { name: "Megaeth",          logo: "tasks/megaeth.jpg",          description: "MegaETH Testnet", url: "https://testnet.megaeth.com/#3"},
             { name: "Superbridge",      logo: "tasks/superbridge.jpg",      description: "Bridge",          url: "https://testnets.superbridge.app/"},
             { name: "Brid.gg",          logo: "tasks/bridgg.png",           description: "Bridge",          url: "brid.gg"},
             { name: "Relay",            logo: "tasks/relay.jpg",            description: "Bridge",          url: "https://testnets.relay.link/bridge/sepolia"},
