@@ -134,6 +134,61 @@ const dapps = {
             { name: "Salvor",               logo: "dex/salvor.jpg",             description: "NFT Marketplace",                 url: "https://salvor.io/"}
         ]
     },
+    sei: {
+        dex: [
+            { name: "Aori",                 logo: "dex/aori.jpg",               description: "Community-driven DEX",            url: "https://app.aori.io"},
+            { name: "Carbon Defi",          logo: "dex/carbondefi.jpg",         description: "Community-driven DEX",            url: "https://app.carbondefi.xyz/trade"},
+            { name: "Citrex",               logo: "dex/citrex.jpg",             description: "Derivatives Exchange",            url: "https://app.citrex.markets"},
+            { name: "DragonSwap",           logo: "dex/dragonswap.jpg",         description: "Community-driven DEX",            url: "https://dragonswap.app/swap"},
+            { name: "Filament Fi",          logo: "dex/filament.jpg",           description: "Perps Dex",                       url: "https://app.filament.finance/en"},
+            { name: "Frax Fi",              logo: "dex/frax.jpg",               description: "Community-driven DEX",            url: "https://frax.com/swap"},
+            { name: "Jellyverse",           logo: "dex/jellyswap.jpg",          description: "Community-driven DEX",            url: "https://app.jellyverse.org/jellyswap"},
+            { name: "Oku Trade",            logo: "dex/okutrade.jpg",           description: "Community-driven DEX",            url: "https://oku.trade"},
+            { name: "OpenOcean",            logo: "dex/openocean.jpg",          description: "Community-driven DEX",            url: "https://openocean.finance"},
+            { name: "RedKite",              logo: "dex/redkite.jpg",            description: "Cutting-Edge Launchpad",          url: "https://redkitepad.com/#/dashboard"},
+            { name: "Sailor Fi",            logo: "dex/sailorfi.jpg",           description: "Native Dex",                      url: "https://sailor.finance/swap"},
+            { name: "Sei Fun",              logo: "dex/seifun.jpg",             description: "Meme Launcher",                   url: "https://sei.fun"},
+            { name: "Seiyan Fun",           logo: "dex/seiyanfun.jpg",          description: "Memecoin launchpad ",             url: "https://seiyan.fun"},
+            { name: "SideShift",            logo: "dex/sideshift.png",          description: "Direct to Wallet Trading",        url: "https://sideshift.ai/sei/btc"},
+            { name: "Steer Protocol",       logo: "dex/steer.jpg",              description: "Community-driven DEX",            url: "https://app.steer.finance"},
+            { name: "Symphony Exchange",    logo: "dex/symphonyag.jpg",         description: "Community-driven DEX",            url: "https://symph.ag"},
+            { name: "Vertex Protocol",      logo: "dex/vertex.jpg",             description: "Lightning-fast orderbook DEX ",   url: "https://app.vertexprotocol.com/markets"},
+            { name: "Yaka Finance",         logo: "dex/yakafi.png",             description: "Native liquidity engine",         url: "https://yaka.finance/swap"},
+            { name: "VDex",                 logo: "dex/vdex.jpg",               description: "Native Leading Derivatives",      url: "https://www.vdex.ai/trade/"}
+        ],
+        lending: [
+            { name: "Accumulated Finance",  logo: "dex/accumulatedfi.jpg",      description: "Liquid Staking",                  url: "https://accumulated.finance/stake/sei"},
+            { name: "Nucleusearn",          logo: "dex/nucleusearn.jpg",        description: "Yeild Provider",                  url: "https://app.nucleusearn.io/tokens/sseth"},
+            { name: "Pit Finance",          logo: "dex/pitfi.jpg",              description: "Yeild Optimizer",                 url: "https://pit.finance/vaults"},
+            { name: "PumpBTC",              logo: "dex/pumpbtc.jpg",            description: "Liquid Staking Solution",         url: "https://mainnet.pumpbtc.xyz"},
+            { name: "Silo Staking",         logo: "dex/silo.png",               description: "Liquid staking and MEV ",         url: "https://app.silostaking.io/stake"},
+            { name: "Stafi Protocol",       logo: "dex/stafi.jpg",              description: "Liquid Staking",                  url: "https://app.stafi.io/gallery/evm/SEI"},
+            { name: "Synnax",               logo: "dex/synnax.png",             description: "Native Defi Yeild",               url: "https://app.synnax.fi/#/markets"},
+            { name: "Takara Lend",          logo: "dex/takara.jpg",             description: "Lending Protocol",                url: "https://app.takaralend.com/market/WSEI"},
+            { name: "Yei Finance",          logo: "dex/yeifi.jpg",              description: "Money Market",                    url: "https://app.yei.finance"},
+            { name: "Elixir Fi",            logo: "dex/elixir.jpg",             description: "Native yield-bearing stablecoin", url: "https://www.elixir.xyz/fastusd-staking"}
+        ],
+        nft: [
+            { name: "Seiyan Swap",          logo: "dex/seiyan.jpg",             description: "SEI NFT Swaps With Ease",         url: "https://www.seiyanswap.xyz/swap"},
+            { name: "Altura",               logo: "dex/altura.jpg",             description: "NFT marketplace",                 url: "https://app.alturanft.com/explore/items"},
+            { name: "Dagora",               logo: "dex/dagora.jpg",             description: "NFT Playground",                  url: "https://dagora.xyz/explore/collections"},
+            { name: "Magic Eden",           logo: "dex/magiceden.jpg",          description: "Mint Nft",                    url: "https://magiceden.io/sei" },
+            { name: "Nfts2Me",          logo: "dex/nfts2me.png",            description: "multichain user-friendly",        url: "https://nfts2me.com/" },
+            { name: "Opensea",          logo: "dex/opensea.jpg",        description: "multichain user-friendly",    url: "https://opensea.io/discover/chain/sei" }
+        ],
+        bridge: [
+            { name: "Rubic",            logo: "dex/rubic.jpg",              description: "Bridge",                          url: "https://app.rubic.exchange/" },
+            { name: "Gas Zip",          logo: "dex/gaszip.jpg",             description: "Cross-Chain Refuel",              url: "https://gas.zip/"},
+            { name: "Hyprlane",         logo: "dex/hyprlane.jpg",           description: "Cross_Chain Bridge",              url: "https://www.usenexus.org"},
+            { name: "Jumper",           logo: "dex/jumper.jpg",             description: "Cross-Chain Swap and Bridge",     url: "https://jumper.exchange/"},
+            { name: "Merkly",           logo: "dex/merkly.jpg",             description: "Bridge & Refuel ",                url: "https://minter.merkly.com/hyperlane"},
+            { name: "Skip Protocol",    logo: "dex/skip.png",               description: "Cross-Chain Bridge",              url: "https://go.skip.build"},
+            { name: "Squidrouter",      logo: "dex/squid.jpg",              description: "Cross-Chain Bridge",              url: "https://app.squidrouter.com"},
+            { name: "Stargate",         logo: "dex/stargate.jpg",           description: "omnichain DeFi",                  url: "https://stargate.finance/bridge"},
+            { name: "Symbiosis",        logo: "dex/symbiosis.jpg",          description: "Bridge and Dex",                  url: "https://app.symbiosis.finance/swap" },
+            { name: "USDT0",            logo: "dex/USTD0.jpg",              description: "USDT0 Bridge",                    url: "https://usdt0.to/transfer"}
+        ]
+    },
     manta: {
         dex: [
             { name: "GullSwap",             logo: "dex/gullswap.jpg",           description: "Leading Manta DEX",               url: "https://app.gullnetwork.com/swap" },
